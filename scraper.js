@@ -27,18 +27,49 @@ var nyGovSites = [{
         state: "NY",
         zip: "11042"
     }
+},
+{
+    name: "NYS DOH Hospital/FQHC Appointment Scheduling COVID-19 at Nassau University Medical Center",
+    link: "https://apps.health.ny.gov/doh2/applinks/cdmspr/2/counties?OpID=50500121",
+    address: {
+        name: "Nassau University Medical Center",
+        street: "2201 Hempstead Turnpike",
+        city: "East Meadow",
+        state: "NY",
+        zip: "11554"
+    }
+},
+{
+    name: "Northwell CoVID-19 Vaccination Program: Nassau County - Elmont",
+    link: "https://apps.health.ny.gov/doh2/applinks/cdmspr/2/counties?OpID=50501190",
+    address: {
+        name: "NYRA/Belmont",
+        street: "2150 Hempstead Turnpike",
+        city: "Elmont",
+        state: "NY",
+        zip: "11053"
+    }
+},
+{
+    name: "FIRST DOSE - NYS DOH Hospital/FQHC Appointment Scheduling COVID-19 at Mount Sinai South Nassau",
+    link: "https://apps.health.ny.gov/doh2/applinks/cdmspr/2/counties?OpID=50500074",
+    address: {
+        name: "Mount Sinai South Nassau",
+        street: "One Healthy Way",
+        city: "Oceanside",
+        state: "NY",
+        zip: "11598"
+    }
 }];
 
 const events = [];
 
-for(const site of nyGovSites){
-    console.log(site);
+for (const site of nyGovSites) {
     axios.get(site.link).then(res => {
         const $ = cheerio.load(res.data);
         const eventsWeb = $(".event-type");
-        for (const event of eventsWeb){
-            console.log(site.name);
-            events.push( {
+        for (const event of eventsWeb) {
+            events.push({
                 name: site.name,
                 link: site.link,
                 address: site.address,
