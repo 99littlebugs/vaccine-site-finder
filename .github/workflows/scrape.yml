@@ -1,0 +1,23 @@
+name: Scrape latest data
+on:
+  push:
+  workflow_dispatch:
+  schedule:
+    - cron:  '*/15 * * * *'
+jobs:
+  scheduled:
+    runs-on: ubuntu-latest
+    steps:
+    - name: Check out this repo
+      uses: actions/checkout@v2
+    - name: Fetch latest data
+      run: |-
+        npm run scraper
+    - name: Commit and push if it changed
+      run: |-
+        git config user.name "Scraper Bot"
+        git config user.email "bot@noreply.com"
+        git add -A
+        timestamp=$(date -u)
+        git commit -m "Latest data: ${timestamp}" || exit 0
+        git push

@@ -1,0 +1,13 @@
+{
+    "name": "vaccination-site-aggregator",
+    "version": "0.0.1",
+    "scripts": {
+        "scraper": "node ./scraper.js"
+    },
+    "dependencies": {
+        "axios": "^0.21.1",
+        "cheerio": "^1.0.0-rc.5",
+        "fs": "0.0.1-security",
+        "path": "^0.12.7"
+    }
+}
