@@ -63,9 +63,10 @@ var nyGovSites = [{
 }];
 
 const events = [];
+let promises = [];
 
 for (const site of nyGovSites) {
-    axios.get(site.link).then(res => {
+    promises.push(axios.get(site.link).then(res => {
         const $ = cheerio.load(res.data);
         const eventsWeb = $(".event-type");
         for (const event of eventsWeb) {
@@ -73,14 +74,41 @@ for (const site of nyGovSites) {
                 name: site.name,
                 link: site.link,
                 address: site.address,
-                date: $(event).find("div div:contains(Date):last").first().text(),
-                time: $(event).find("div div:contains(Time):last").first().text(),
+                date: $(event).find("div div:contains('Date:'):last").first().text(),
+                time: $(event).find("div div:contains('Time:'):last").first().text(),
                 available: $(event).find("button").text() !== "Event Full"
             })
         }
+    }));
+}
 
-        const data = JSON.stringify(events, null, 2);
-        const filename = path.join("data", "ny_state.json");
-        fs.writeFileSync(path.resolve(filename), data);
-    });
+Promise.all(promises).then(() => {
+    const data = JSON.stringify(events.sort(sortByProperties("date", "time", "name")), null, 2);
+    const filename = path.join("data", "ny_state.json");
+    fs.writeFileSync(path.resolve(filename), data);
+});
+
+function sortByProperties(property1, property2, property3) {
+    return function (a, b) {
+        var sort = sortByProperty(property1)(a, b);
+        if (sort !== 0) {
+            return sort;
+        }
+        sort = sortByProperty(property2)(a, b);
+        if (sort !== 0) {
+            return sort;
+        }
+        return sortByProperty(property3);
+    }
+}
+
+function sortByProperty(property) {
+    return function (a, b) {
+        if (a[property] > b[property])
+            return 1;
+        else if (a[property] < b[property])
+            return -1;
+
+        return 0;
+    }
 }
