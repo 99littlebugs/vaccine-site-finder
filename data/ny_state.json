@@ -182,6 +182,34 @@
     "available": false
   },
   {
+    "name": "NYS DOH Hospital/FQHC Appointment Scheduling COVID-19 at Nassau University Medical Center",
+    "link": "https://apps.health.ny.gov/doh2/applinks/cdmspr/2/counties?OpID=50500121",
+    "address": {
+      "name": "Nassau University Medical Center",
+      "street": "2201 Hempstead Turnpike",
+      "city": "East Meadow",
+      "state": "NY",
+      "zip": "11554"
+    },
+    "date": "Date: January 18, 2021",
+    "time": "Time: 08:00 AM - 06:00 PM",
+    "available": false
+  },
+  {
+    "name": "NYS DOH Hospital/FQHC Appointment Scheduling COVID-19 at Nassau University Medical Center",
+    "link": "https://apps.health.ny.gov/doh2/applinks/cdmspr/2/counties?OpID=50500121",
+    "address": {
+      "name": "Nassau University Medical Center",
+      "street": "2201 Hempstead Turnpike",
+      "city": "East Meadow",
+      "state": "NY",
+      "zip": "11554"
+    },
+    "date": "Date: January 19, 2021",
+    "time": "Time: 06:15 AM - 10:00 PM",
+    "available": false
+  },
+  {
     "name": "NYS DOH Hospital / FQHC Scheduling COVID-19 Sutphin Health Center",
     "link": "https://apps.health.ny.gov/doh2/applinks/cdmspr/2/counties?OpID=50501251",
     "address": {
@@ -210,6 +238,48 @@
     "available": false
   },
   {
+    "name": "NYS DOH Hospital/FQHC Appointment Scheduling COVID-19 at Nassau University Medical Center",
+    "link": "https://apps.health.ny.gov/doh2/applinks/cdmspr/2/counties?OpID=50500121",
+    "address": {
+      "name": "Nassau University Medical Center",
+      "street": "2201 Hempstead Turnpike",
+      "city": "East Meadow",
+      "state": "NY",
+      "zip": "11554"
+    },
+    "date": "Date: January 22, 2021",
+    "time": "Time: 06:15 AM - 06:00 PM",
+    "available": false
+  },
+  {
+    "name": "NYS DOH Hospital/FQHC Appointment Scheduling COVID-19 at Nassau University Medical Center",
+    "link": "https://apps.health.ny.gov/doh2/applinks/cdmspr/2/counties?OpID=50500121",
+    "address": {
+      "name": "Nassau University Medical Center",
+      "street": "2201 Hempstead Turnpike",
+      "city": "East Meadow",
+      "state": "NY",
+      "zip": "11554"
+    },
+    "date": "Date: January 25, 2021",
+    "time": "Time: 06:15 AM - 06:00 PM",
+    "available": false
+  },
+  {
+    "name": "NYS DOH Hospital/FQHC Appointment Scheduling COVID-19 at Nassau University Medical Center",
+    "link": "https://apps.health.ny.gov/doh2/applinks/cdmspr/2/counties?OpID=50500121",
+    "address": {
+      "name": "Nassau University Medical Center",
+      "street": "2201 Hempstead Turnpike",
+      "city": "East Meadow",
+      "state": "NY",
+      "zip": "11554"
+    },
+    "date": "Date: January 26, 2021",
+    "time": "Time: 06:15 AM - 06:00 PM",
+    "available": false
+  },
+  {
     "name": "NYS DOH Hospital / FQHC Scheduling COVID-19 Sutphin Health Center",
     "link": "https://apps.health.ny.gov/doh2/applinks/cdmspr/2/counties?OpID=50501251",
     "address": {
@@ -221,6 +291,20 @@
     },
     "date": "Date: January 26, 2021",
     "time": "Time: 10:00 AM - 05:00 PM",
+    "available": false
+  },
+  {
+    "name": "NYS DOH Hospital/FQHC Appointment Scheduling COVID-19 at Nassau University Medical Center",
+    "link": "https://apps.health.ny.gov/doh2/applinks/cdmspr/2/counties?OpID=50500121",
+    "address": {
+      "name": "Nassau University Medical Center",
+      "street": "2201 Hempstead Turnpike",
+      "city": "East Meadow",
+      "state": "NY",
+      "zip": "11554"
+    },
+    "date": "Date: January 27, 2021",
+    "time": "Time: 06:15 AM - 05:45 PM",
     "available": false
   }
 ]
