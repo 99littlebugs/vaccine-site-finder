@@ -14,17 +14,17 @@
     "available": false
   },
   {
-    "name": "Northwell CoVID-19 Vaccination Program: Nassau County - Elmont",
-    "link": "https://apps.health.ny.gov/doh2/applinks/cdmspr/2/counties?OpID=50501190",
+    "name": "Northwell CoVID-19 Vaccination Program: Nassau County - Lake Success",
+    "link": "https://apps.health.ny.gov/doh2/applinks/cdmspr/2/counties?OpID=50500075",
     "address": {
-      "name": "NYRA/Belmont",
-      "street": "2150 Hempstead Turnpike",
-      "city": "Elmont",
+      "name": "Lake Success/New Hyde Park",
+      "street": "1111 Marcus Avenue",
+      "city": "New Hyde Park",
       "state": "NY",
-      "zip": "11053"
+      "zip": "11042"
     },
     "date": "Date: January 11, 2021",
-    "time": "Time: 12:00 PM - 07:45 PM",
+    "time": "Time: 07:00 AM - 09:45 PM",
     "available": false
   },
   {
@@ -70,17 +70,17 @@
     "available": false
   },
   {
-    "name": "Northwell CoVID-19 Vaccination Program: Nassau County - Lake Success",
-    "link": "https://apps.health.ny.gov/doh2/applinks/cdmspr/2/counties?OpID=50500075",
+    "name": "Northwell CoVID-19 Vaccination Program: Nassau County - Elmont",
+    "link": "https://apps.health.ny.gov/doh2/applinks/cdmspr/2/counties?OpID=50501190",
     "address": {
-      "name": "Lake Success/New Hyde Park",
-      "street": "1111 Marcus Avenue",
-      "city": "New Hyde Park",
+      "name": "NYRA/Belmont",
+      "street": "2150 Hempstead Turnpike",
+      "city": "Elmont",
       "state": "NY",
-      "zip": "11042"
+      "zip": "11053"
     },
     "date": "Date: January 11, 2021",
-    "time": "Time: 07:00 AM - 09:45 PM",
+    "time": "Time: 12:00 PM - 07:45 PM",
     "available": false
   },
   {
