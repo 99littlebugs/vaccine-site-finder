@@ -1,5 +1,103 @@
 [
   {
+    "name": "NYS DOH Hospital/FQHC Appointment Scheduling COVID-19 at Nassau University Medical Center",
+    "link": "https://apps.health.ny.gov/doh2/applinks/cdmspr/2/counties?OpID=50500121",
+    "address": {
+      "name": "Nassau University Medical Center",
+      "street": "2201 Hempstead Turnpike",
+      "city": "East Meadow",
+      "state": "NY",
+      "zip": "11554"
+    },
+    "date": "Date: January 21, 2021",
+    "time": "Time: 06:15 AM - 06:00 PM",
+    "available": false
+  },
+  {
+    "name": "Northwell CoVID-19 Vaccination Program: Nassau County - Elmont",
+    "link": "https://apps.health.ny.gov/doh2/applinks/cdmspr/2/counties?OpID=50501190",
+    "address": {
+      "name": "NYRA/Belmont",
+      "street": "2150 Hempstead Turnpike",
+      "city": "Elmont",
+      "state": "NY",
+      "zip": "11053"
+    },
+    "date": "Date: January 11, 2021",
+    "time": "Time: 12:00 PM - 07:45 PM",
+    "available": false
+  },
+  {
+    "name": "Northwell CoVID-19 Vaccination Program: Nassau County - Lake Success",
+    "link": "https://apps.health.ny.gov/doh2/applinks/cdmspr/2/counties?OpID=50500075",
+    "address": {
+      "name": "Lake Success/New Hyde Park",
+      "street": "1111 Marcus Avenue",
+      "city": "New Hyde Park",
+      "state": "NY",
+      "zip": "11042"
+    },
+    "date": "Date: January 11, 2021",
+    "time": "Time: 07:00 AM - 09:45 PM",
+    "available": false
+  },
+  {
+    "name": "FIRST DOSE - NYS DOH Hospital/FQHC Appointment Scheduling COVID-19 at Mount Sinai South Nassau",
+    "link": "https://apps.health.ny.gov/doh2/applinks/cdmspr/2/counties?OpID=50500074",
+    "address": {
+      "name": "Mount Sinai South Nassau",
+      "street": "One Healthy Way",
+      "city": "Oceanside",
+      "state": "NY",
+      "zip": "11598"
+    },
+    "date": "Date: January 12, 2021",
+    "time": "Time: 07:00 AM - 03:00 PM",
+    "available": false
+  },
+  {
+    "name": "FIRST DOSE - NYS DOH Hospital/FQHC Appointment Scheduling COVID-19 at Mount Sinai South Nassau",
+    "link": "https://apps.health.ny.gov/doh2/applinks/cdmspr/2/counties?OpID=50500074",
+    "address": {
+      "name": "Mount Sinai South Nassau",
+      "street": "One Healthy Way",
+      "city": "Oceanside",
+      "state": "NY",
+      "zip": "11598"
+    },
+    "date": "Date: January 13, 2021",
+    "time": "Time: 03:00 PM - 11:00 PM",
+    "available": false
+  },
+  {
+    "name": "FIRST DOSE - NYS DOH Hospital/FQHC Appointment Scheduling COVID-19 at Mount Sinai South Nassau",
+    "link": "https://apps.health.ny.gov/doh2/applinks/cdmspr/2/counties?OpID=50500074",
+    "address": {
+      "name": "Mount Sinai South Nassau",
+      "street": "One Healthy Way",
+      "city": "Oceanside",
+      "state": "NY",
+      "zip": "11598"
+    },
+    "date": "Date: January 14, 2021",
+    "time": "Time: 07:00 AM - 03:00 PM",
+    "available": false
+  },
+  {
+    "name": "FIRST DOSE - NYS DOH Hospital/FQHC Appointment Scheduling COVID-19 at Mount Sinai South Nassau",
+    "link": "https://apps.health.ny.gov/doh2/applinks/cdmspr/2/counties?OpID=50500074",
+    "address": {
+      "name": "Mount Sinai South Nassau",
+      "street": "One Healthy Way",
+      "city": "Oceanside",
+      "state": "NY",
+      "zip": "11598"
+    },
+    "date": "Date: January 15, 2021",
+    "time": "Time: 09:00 AM - 05:00 PM",
+    "available": false
+  },
+  {
     "name": "NYS DOH Hospital / FQHC Scheduling COVID-19 Sutphin Health Center",
     "link": "https://apps.health.ny.gov/doh2/applinks/cdmspr/2/counties?OpID=50501251",
     "address": {
