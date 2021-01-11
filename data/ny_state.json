@@ -123,7 +123,7 @@
     },
     "date": "Date: February 23, 2021",
     "time": "Time: 10:00 AM - 05:00 PM",
-    "available": true
+    "available": false
   },
   {
     "name": "Northwell CoVID-19 Vaccination Program: Nassau County - Lake Success",
@@ -221,7 +221,7 @@
     },
     "date": "Date: January 15, 2021",
     "time": "Time: 09:00 AM - 05:00 PM",
-    "available": false
+    "available": true
   },
   {
     "name": "NYS DOH Hospital/FQHC Appointment Scheduling COVID-19 at Nassau University Medical Center",
