@@ -12,6 +12,7 @@ jobs:
       uses: actions/checkout@v2
     - name: Fetch latest data
       run: |-
+        npm install
         npm run scraper
     - name: Commit and push if it changed
       run: |-

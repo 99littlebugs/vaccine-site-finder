@@ -1,5 +1,5 @@
 {
-    "name": "vaccination-site-aggregator",
+    "name": "vaccine-site-tracker",
     "version": "0.0.1",
     "scripts": {
         "scraper": "node ./scraper.js"
