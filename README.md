@@ -12,5 +12,4 @@ Pull requests are welcome!
 ## Inspiration :pray:
 * https://github.com/sw-yx/gh-action-data-scraping
 * https://simonwillison.net/2020/Oct/9/git-scraping/
-
-
+* https://medium.com/javascript-in-plain-english/cheerio-script-for-turning-html-pages-into-json-files-8e9363106904
