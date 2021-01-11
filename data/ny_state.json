@@ -28,6 +28,20 @@
     "available": false
   },
   {
+    "name": "Northwell CoVID-19 Vaccination Program: Nassau County - Elmont",
+    "link": "https://apps.health.ny.gov/doh2/applinks/cdmspr/2/counties?OpID=50501190",
+    "address": {
+      "name": "NYRA/Belmont",
+      "street": "2150 Hempstead Turnpike",
+      "city": "Elmont",
+      "state": "NY",
+      "zip": "11053"
+    },
+    "date": "Date: January 11, 2021",
+    "time": "Time: 12:00 PM - 07:45 PM",
+    "available": false
+  },
+  {
     "name": "FIRST DOSE - NYS DOH Hospital/FQHC Appointment Scheduling COVID-19 at Mount Sinai South Nassau",
     "link": "https://apps.health.ny.gov/doh2/applinks/cdmspr/2/counties?OpID=50500074",
     "address": {
@@ -67,20 +81,6 @@
     },
     "date": "Date: January 15, 2021",
     "time": "Time: 09:00 AM - 05:00 PM",
-    "available": false
-  },
-  {
-    "name": "Northwell CoVID-19 Vaccination Program: Nassau County - Elmont",
-    "link": "https://apps.health.ny.gov/doh2/applinks/cdmspr/2/counties?OpID=50501190",
-    "address": {
-      "name": "NYRA/Belmont",
-      "street": "2150 Hempstead Turnpike",
-      "city": "Elmont",
-      "state": "NY",
-      "zip": "11053"
-    },
-    "date": "Date: January 11, 2021",
-    "time": "Time: 12:00 PM - 07:45 PM",
     "available": false
   },
   {
