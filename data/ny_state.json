@@ -1,19 +1,5 @@
 [
   {
-    "name": "NYS DOH Hospital/FQHC Appointment Scheduling COVID-19 at Nassau University Medical Center",
-    "link": "https://apps.health.ny.gov/doh2/applinks/cdmspr/2/counties?OpID=50500121",
-    "address": {
-      "name": "Nassau University Medical Center",
-      "street": "2201 Hempstead Turnpike",
-      "city": "East Meadow",
-      "state": "NY",
-      "zip": "11554"
-    },
-    "date": "Date: January 21, 2021",
-    "time": "Time: 06:15 AM - 06:00 PM",
-    "available": false
-  },
-  {
     "name": "Northwell CoVID-19 Vaccination Program: Nassau County - Elmont",
     "link": "https://apps.health.ny.gov/doh2/applinks/cdmspr/2/counties?OpID=50501190",
     "address": {
@@ -39,6 +25,20 @@
     },
     "date": "Date: January 11, 2021",
     "time": "Time: 07:00 AM - 09:45 PM",
+    "available": false
+  },
+  {
+    "name": "NYS DOH Hospital/FQHC Appointment Scheduling COVID-19 at Nassau University Medical Center",
+    "link": "https://apps.health.ny.gov/doh2/applinks/cdmspr/2/counties?OpID=50500121",
+    "address": {
+      "name": "Nassau University Medical Center",
+      "street": "2201 Hempstead Turnpike",
+      "city": "East Meadow",
+      "state": "NY",
+      "zip": "11554"
+    },
+    "date": "Date: January 21, 2021",
+    "time": "Time: 06:15 AM - 06:00 PM",
     "available": false
   },
   {
