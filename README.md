@@ -1,4 +1,4 @@
-# NY State Vaccination :syringe: Site Tracker ![Pull data](https://github.com/actions/99littlebugs/workflows/Greet%20Everyone/badge.svg)
+# NY State Vaccination :syringe: Site Tracker ![Scrape latest data](https://github.com/99littlebugs/vaccine-site-finder/workflows/Scrape%20latest%20data/badge.svg)
 NY State vaccination appointments seem to be spread across multiple websites, making it challenging to see where appointments are available. 
 
 This repository aims to solve that problem by aggregating the views of the many different sites to a single dashboard. 
