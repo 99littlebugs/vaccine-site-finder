@@ -124,7 +124,7 @@
       },
       "date": "Date: February 10, 2021",
       "time": "Time: 10:00 AM - 05:00 PM",
-      "available": true
+      "available": false
     },
     {
       "name": "NYS DOH Hospital / FQHC Scheduling COVID-19 Sutphin Health Center",
@@ -152,7 +152,7 @@
       },
       "date": "Date: February 17, 2021",
       "time": "Time: 10:00 AM - 05:00 PM",
-      "available": true
+      "available": false
     },
     {
       "name": "NYS DOH Hospital / FQHC Scheduling COVID-19 Sutphin Health Center",
@@ -180,7 +180,7 @@
       },
       "date": "Date: February 24, 2021",
       "time": "Time: 10:00 AM - 05:00 PM",
-      "available": true
+      "available": false
     },
     {
       "name": "Northwell CoVID-19 Vaccination Program: Nassau County - Lake Success",
