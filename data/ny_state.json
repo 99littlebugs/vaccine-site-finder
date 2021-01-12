@@ -127,6 +127,20 @@
       "available": false
     },
     {
+      "name": "Northwell CoVID-19 Vaccination Program: Nassau County - Lake Success",
+      "link": "https://apps.health.ny.gov/doh2/applinks/cdmspr/2/counties?OpID=50500075",
+      "address": {
+        "name": "Lake Success/New Hyde Park",
+        "street": "1111 Marcus Avenue",
+        "city": "New Hyde Park",
+        "state": "NY",
+        "zip": "11042"
+      },
+      "date": "Date: January 12, 2021",
+      "time": "Time: 07:00 AM - 09:45 PM",
+      "available": false
+    },
+    {
       "name": "NYS DOH Hospital/FQHC Appointment Scheduling COVID-19 at Nassau University Medical Center",
       "link": "https://apps.health.ny.gov/doh2/applinks/cdmspr/2/counties?OpID=50500121",
       "address": {
