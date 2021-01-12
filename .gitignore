@@ -1,2 +1,5 @@
 # Dependency directories
 node_modules/
+
+# should be generated
+site/index.html

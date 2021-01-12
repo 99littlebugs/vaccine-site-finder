@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+  <!-- Basic Page Needs
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+  <meta charset="utf-8">
+  <title>Vaccine Site Finder</title>
+  <meta name="description" content="NY State vaccination appointments seem to be spread across multiple websites, making it challenging to see where appointments are available.
+  This website aims to solve that problem by aggregating the views of the many different sites to a single dashboard.">
+
+  <!-- Mobile Specific Metas
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <!-- FONT
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+  <link href="//fonts.googleapis.com/css?family=Raleway:400,300,600" rel="stylesheet" type="text/css">
+
+  <!-- CSS
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+  <link rel="stylesheet" href="css/normalize.css">
+  <link rel="stylesheet" href="css/skeleton.css">
+  <link rel="stylesheet" href="css/site.css">
+
+  <!-- Favicon https://www.iconfinder.com/icons/5991794/coronavirus_cure_injection_needle_vaccination_vaccine_icon
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+  
+  <link rel="apple-touch-icon" sizes="180x180" href="images/apple-touch-icon.png">
+<link rel="icon" type="image/png" sizes="32x32" href="images/favicon-32x32.png">
+<link rel="icon" type="image/png" sizes="16x16" href="images/favicon-16x16.png">
+<link rel="manifest" href="images/site.webmanifest">
+<link rel="mask-icon" href="images/safari-pinned-tab.svg" color="#5bbad5">
+<link rel="shortcut icon" href="images/favicon.ico">
+<meta name="msapplication-TileColor" content="#ffc40d">
+<meta name="msapplication-config" content="images/browserconfig.xml">
+<meta name="theme-color" content="#ffffff">
+
+</head>
+
+<body>
+
+  <!-- Primary Page Layout
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+  <div class="container">
+    <div class="row">
+      <h1 class="p-t-5">Vaccine Site Finder</h1>
+      <p>This site aims to make finding a vaccine appointment a little bit easier. It is currently focused on the Nassau
+        County and Queens area and is updated periodically.</p>
+      <p>This site is not affiliated with NY State or any goverment or health agency. For feature requests, comments, or to help please contact us through <a target="_blank" href="https://github.com/99littlebugs/vaccine-site-finder">Github</a>.</p>
+      <table>
+        <tr>
+          <th>Address</th>
+          <th>Date</th>
+          <th>Time</th>
+          <th></th>
+        </tr>
+        {{#each events}}
+        <tr>
+          <td>
+            <strong>{{address.name}}</strong><br>
+            {{address.street}}<br>
+            {{address.city}}, {{address.state}} {{address.zip}}
+          </td>
+          <td>{{date}}</td>
+          <td>{{time}}</td>
+          {{#if available}}
+          <td><a target="_blank" class="button button-primary" href="{{link}}">Book</a></td>
+          {{else}}
+          <td><a target="_blank" class="button" href="{{link}}">View</a></td>
+          {{/if}}
+        </tr>
+        {{/each}}
+      </table>
+    </div>
+  </div>
+
+  <!-- End Document
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+</body>
+
+</html>

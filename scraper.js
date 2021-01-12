@@ -79,11 +79,13 @@ for (const site of nyGovSites) {
                 available: $(event).find("button").text() !== "Event Full"
             })
         }
+    }).catch(err => {
+        console.error(err.message + ": " + err.config.url);
     }));
 }
 
 Promise.all(promises).then(() => {
-    const data = JSON.stringify(events.sort(sortByProperties("date", "time", "name")), null, 2);
+    const data = JSON.stringify({ events: events.sort(sortByProperties("date", "time", "name")) }, null, 2);
     const filename = path.join("data", "ny_state.json");
     fs.writeFileSync(path.resolve(filename), data);
 });
