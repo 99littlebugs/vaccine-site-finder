@@ -6,7 +6,7 @@ const fs = require("fs");
 const path = require('path');
 
 
-var nyGovSites = [{
+const nyGovSites = [{
     name: "NYS DOH Hospital / FQHC Scheduling COVID-19 Sutphin Health Center",
     link: "https://apps.health.ny.gov/doh2/applinks/cdmspr/2/counties?OpID=50501251",
     address: {
@@ -59,6 +59,17 @@ var nyGovSites = [{
         city: "Oceanside",
         state: "NY",
         zip: "11598"
+    },
+},
+{
+    name: "NYS COVID Vaccine POD - JAVax - Manhattan, N.Y.",
+    link: "https://apps.health.ny.gov/doh2/applinks/cdmspr/2/counties?OpID=50502320",
+    address: {
+        name: "JAVax Manhattan, N.Y.",
+        street: "429 11th Avenue",
+        city: "New York",
+        state: "NY",
+        zip: "10018"
     }
 }];
 
@@ -67,17 +78,18 @@ let promises = [];
 
 for (const site of nyGovSites) {
     promises.push(axios.get(site.link).then(res => {
+        site.events = [];
         const $ = cheerio.load(res.data);
         const eventsWeb = $(".event-type");
         for (const event of eventsWeb) {
-            events.push({
-                name: site.name,
-                link: site.link,
-                address: site.address,
-                date: $(event).find("div div:contains('Date:'):last").first().text(),
-                time: $(event).find("div div:contains('Time:'):last").first().text(),
-                available: $(event).find("button").text() !== "Event Full"
-            })
+            const isAvailable = $(event).find("button").text() !== "Event Full";
+            if (isAvailable) {
+                site.events.push({
+                    date: new Date($(event).find("div div:contains('Date:'):last").first().text().substring(6) + " UTC"),
+                    time: $(event).find("div div:contains('Time:'):last").first().text().substring(6),
+                    available: isAvailable
+                })
+            }
         }
     }).catch(err => {
         console.error(err.message + ": " + err.config.url);
@@ -85,32 +97,7 @@ for (const site of nyGovSites) {
 }
 
 Promise.all(promises).then(() => {
-    const data = JSON.stringify({ events: events.sort(sortByProperties("date", "time", "name")) }, null, 2);
+    const data = JSON.stringify({ sites: nyGovSites }, null, 2);
     const filename = path.join("data", "ny_state.json");
     fs.writeFileSync(path.resolve(filename), data);
 });
-
-function sortByProperties(property1, property2, property3) {
-    return function (a, b) {
-        var sort = sortByProperty(property1)(a, b);
-        if (sort !== 0) {
-            return sort;
-        }
-        sort = sortByProperty(property2)(a, b);
-        if (sort !== 0) {
-            return sort;
-        }
-        return sortByProperty(property3);
-    }
-}
-
-function sortByProperty(property) {
-    return function (a, b) {
-        if (a[property] > b[property])
-            return 1;
-        else if (a[property] < b[property])
-            return -1;
-
-        return 0;
-    }
-}
