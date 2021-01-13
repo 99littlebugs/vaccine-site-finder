@@ -1,14 +1,17 @@
 # NY State Vaccination :syringe: Site Tracker ![Scrape latest data](https://github.com/99littlebugs/vaccine-site-finder/workflows/Scrape%20latest%20data/badge.svg) ![Deploy](https://github.com/99littlebugs/vaccine-site-finder/workflows/Deploy/badge.svg)
 NY State vaccination appointments seem to be spread across multiple websites, making it challenging to see where appointments are available. 
 
-This repository aims to solve that problem by aggregating the views of the many different sites to a single dashboard. 
+This repository aims to solve that problem by aggregating the views of the many different sites to a single dashboard.
+
+Currently focused towards Nassau, Queens, Manhattan. Open to PRs to allow further expansion.
 
 ## `//TODO:` :white_check_mark:
 Pull requests are welcome!
 1. Add all the NY state individual sites
-1. Parse the addresses/location information dynamically
+   * Will require searching or county filtering
+1. Maybe parse the addresses/location information dynamically
+   * now the added benefit is that site doesn't need to be up for us to show the info
 1. Add more private sign up websites (along with parsers to go with them)
-1. Build a web front end
 
 ## Inspiration and attribution :pray:
 * https://github.com/sw-yx/gh-action-data-scraping
