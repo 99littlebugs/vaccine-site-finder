@@ -104,6 +104,17 @@ const nyGovSites = [{
         state: "NY",
         zip: "11590"
     }
+},
+{
+    name: "NYS COVID Vaccine POD - Jones Beach State Park - Field 3",
+    link: "https://apps.health.ny.gov/doh2/applinks/cdmspr/2/counties?OpID=50502584",
+    address: {
+        name: "Jones Beach State Park",
+        street: "1901 Ocean Parkway",
+        city: "Wantagh", 
+        state: "NY",
+        zip: "11793"
+    }
 }];
 
 let promises = [];
