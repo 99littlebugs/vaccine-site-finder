@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
   <!-- Basic Page Needs -->
   <meta charset="utf-8">
@@ -29,59 +30,88 @@
   <meta name="msapplication-config" content="images/browserconfig.xml">
   <meta name="theme-color" content="#ffffff">
 </head>
+
 <body>
   <div class="container">
     <div class="row">
-      <h1 class="p-t-5">Vaccine Site Finder</h1>
+      <h1 class="p-t-5">Vaccine Site Finder (NY)</h1>
       <p>This site aims to make finding a vaccine appointment a little bit easier. It is currently focused on the Nassau
         County, Queens, and Manhattan area and is updated multiple times per hour.</p>
       <p>This site is not affiliated with NY State or any goverment or health agency. For feature requests, comments, or
         to help please contact us through <a target="_blank"
           href="https://github.com/99littlebugs/vaccine-site-finder">Github</a>.</p>
-      <h3>Sites and times with availability:</h2>
-        <p>The following events are showing with availability. When you click "Book" you will be brought to the NY
-          Health site. You may need to scroll down to find the day that you need.</p>
-        <table class="u-full-width">
-          <tr>
-            <th>Address</th>
-            <th>Date</th>
-            <th>Time</th>
-            <th></th>
-          </tr>
-          {{#each events}}
-          <tr>
-            <td>
-              <strong>{{site.address.name}}</strong><br>
-              {{site.address.street}}<br>
-              {{site.address.city}}, {{site.address.state}} {{site.address.zip}}
-            </td>
-            <td>{{date date}}</td>
-            <td>{{time}}</td>
-            <td><a target="_blank" class="u-pull-right button button-primary" href="{{site.link}}">Book</a></td>
-          </tr>
-          {{/each}}
-        </table>
-        <h3>Sites:</h2>
-          <p>These are the sites that we are currently tracking.</p>
-          <table class="u-full-width">
-            <tr>
-              <th>Name</th>
-              <th>Address</th>
-              <th></th>
-            </tr>
-            {{#each sites}}
-            <tr>
-              <td>{{name}}</td>
-              <td>
-                <strong>{{address.name}}</strong><br>
-                {{address.street}}<br>
-                {{address.city}}, {{address.state}} {{address.zip}}
-              </td>
-              <td><a target="_blank" class="u-pull-right button" href="{{site.link}}">View</a></td>
-            </tr>
-            {{/each}}
-          </table>
+      <h3>Available Appointments</h3>
+      <p>The following events are showing with availability. When you click "Book" you will be brought to the NY Health
+        site.</p>
+      <em>The registration websites are under high load and have been generating a lot of errors. If at first you don't
+        succeed, try, try again!</em>
+      <table class="u-full-width">
+        <tr>
+          <th>Address</th>
+          <th>Date</th>
+          <th>Time</th>
+          <th>Appointments</th>
+          <th></th>
+        </tr>
+        {{#each events}}
+        <tr>
+          <td>
+            <strong>{{site.address.name}}</strong><br>
+            {{site.address.street}}<br>
+            {{site.address.city}}, {{site.address.state}} {{site.address.zip}}
+          </td>
+          <td>{{date date}}</td>
+          <td>{{time}}</td>
+          <td>{{appointments}}</td>
+          <td><a target="_blank" class="u-pull-right button button-primary" href="{{site.link}}#{{linkId}}">Book</a>
+          </td>
+        </tr>
+        {{else}}
+        <tr>
+          <td>Oh no! Looks like there are no appointments available to book right now.</td>
+        </tr>
+        {{/each}}
+      </table>
+      <h3 id="sites">Sites</h3>
+      <p>These are the sites that we are currently tracking. Know of another site that you'd like us to track? <a
+          href="#contact">Let us know</a> or raise a <a
+          href="https://github.com/99littlebugs/vaccine-site-finder/issues" target="_blank">GitHub issue</a>.</p>
+      <table class="u-full-width">
+        <tr>
+          <th>Name</th>
+          <th>Address</th>
+          <th></th>
+        </tr>
+        {{#each sites}}
+        <tr>
+          <td>{{name}}</td>
+          <td>
+            <strong>{{address.name}}</strong><br>
+            {{address.street}}<br>
+            {{address.city}}, {{address.state}} {{address.zip}}
+          </td>
+          <td><a target="_blank" class="u-pull-right button" href="{{link}}">View</a></td>
+        </tr>
+        {{/each}}
+      </table>
+      <h3 id="contact">Contact Us</h3>
+      <p>We'd love to hear from you, whether it be to help us improve, say thanks, or ask us to track more sites. Only
+        provide your email address if you'd like to be contacted with a response. If you'd like to collaborate, you may
+        also raise a <a href="https://github.com/99littlebugs/vaccine-site-finder/issues" target="_blank">GitHub
+          issue.</a></p>
+      <div id="form-wrapper">
+        <form name="contact" id="contact-form" method="POST" data-netlify="true" netlify-honeypot="name">
+          <label for="email">Email:</label>
+          <input class="u-full-width" type="email" placeholder="hello@mail.com" name="email">
+          <input hidden name="name" />
+          <label for="message">Message:</label>
+          <textarea class="u-full-width" placeholder="Hi …" name="message" required></textarea>
+          <input class="button-primary" type="submit" value="Send">
+        </form>
+      </div>
     </div>
   </div>
+  <script src="scripts/site.js"></script>
 </body>
+
 </html>

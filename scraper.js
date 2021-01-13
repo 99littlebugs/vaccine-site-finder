@@ -87,8 +87,9 @@ for (const site of nyGovSites) {
                 site.events.push({
                     date: new Date($(event).find("div div:contains('Date:'):last").first().text().substring(6) + " UTC"),
                     time: $(event).find("div div:contains('Time:'):last").first().text().substring(6),
-                    available: isAvailable
-                })
+                    appointments: $(event).find("div div:contains('Appointments Available:'):last").first().text().substring(24),
+                    linkId: $(event).parent().attr("id")
+                });
             }
         }
     }).catch(err => {
