@@ -72,64 +72,46 @@
       },
       "events": [
         {
-          "date": "2021-01-13T00:00:00.000Z",
-          "time": "08:00 AM - 06:30 PM",
-          "appointments": "1",
-          "linkId": "Marker0Div"
-        },
-        {
-          "date": "2021-03-30T00:00:00.000Z",
-          "time": "08:00 AM - 06:30 PM",
-          "appointments": "1",
-          "linkId": "Marker76Div"
-        },
-        {
-          "date": "2021-04-09T00:00:00.000Z",
+          "date": "2021-04-10T00:00:00.000Z",
           "time": "08:00 AM - 06:30 PM",
           "appointments": "7",
           "linkId": "Marker86Div"
         },
         {
-          "date": "2021-04-10T00:00:00.000Z",
-          "time": "08:00 AM - 06:30 PM",
-          "appointments": "181",
-          "linkId": "Marker87Div"
-        },
-        {
           "date": "2021-04-11T00:00:00.000Z",
           "time": "08:00 AM - 06:30 PM",
-          "appointments": "229",
-          "linkId": "Marker88Div"
+          "appointments": "201",
+          "linkId": "Marker87Div"
         },
         {
           "date": "2021-04-12T00:00:00.000Z",
           "time": "08:00 AM - 06:30 PM",
-          "appointments": "165",
-          "linkId": "Marker89Div"
+          "appointments": "155",
+          "linkId": "Marker88Div"
         },
         {
           "date": "2021-04-13T00:00:00.000Z",
           "time": "08:00 AM - 06:30 PM",
-          "appointments": "244",
-          "linkId": "Marker90Div"
+          "appointments": "232",
+          "linkId": "Marker89Div"
         },
         {
           "date": "2021-04-14T00:00:00.000Z",
           "time": "08:00 AM - 06:30 PM",
-          "appointments": "246",
-          "linkId": "Marker91Div"
+          "appointments": "245",
+          "linkId": "Marker90Div"
         },
         {
           "date": "2021-04-15T00:00:00.000Z",
           "time": "08:00 AM - 06:30 PM",
-          "appointments": "238",
-          "linkId": "Marker92Div"
+          "appointments": "235",
+          "linkId": "Marker91Div"
         },
         {
           "date": "2021-04-16T00:00:00.000Z",
           "time": "08:00 AM - 06:30 PM",
-          "appointments": "149",
-          "linkId": "Marker93Div"
+          "appointments": "143",
+          "linkId": "Marker92Div"
         }
       ]
     },
@@ -143,14 +125,7 @@
         "state": "NY",
         "zip": "10021"
       },
-      "events": [
-        {
-          "date": "2021-01-13T00:00:00.000Z",
-          "time": "08:00 AM - 06:15 PM",
-          "appointments": "1",
-          "linkId": "Marker0Div"
-        }
-      ]
+      "events": []
     },
     {
       "name": "NC Dept. of Health at Nassau Community College CCB",
