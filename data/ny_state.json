@@ -78,22 +78,7 @@
       },
       "events": [
         {
-          "date": "2021-03-04T00:00:00.000Z",
-          "time": "08:00 AM - 06:30 PM",
-          "available": true
-        },
-        {
-          "date": "2021-03-11T00:00:00.000Z",
-          "time": "08:00 AM - 06:30 PM",
-          "available": true
-        },
-        {
-          "date": "2021-03-12T00:00:00.000Z",
-          "time": "08:00 AM - 06:30 PM",
-          "available": true
-        },
-        {
-          "date": "2021-03-13T00:00:00.000Z",
+          "date": "2021-02-06T00:00:00.000Z",
           "time": "08:00 AM - 06:30 PM",
           "available": true
         },
