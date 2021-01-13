@@ -13,6 +13,8 @@ Pull requests are welcome!
 1. Maybe parse the addresses/location information dynamically
    * now the added benefit is that site doesn't need to be up for us to show the info
 1. Add more private sign up websites (along with parsers to go with them)
+1. Move off of GitHub actions since for data retrieval since the scheduler is unreliable
+   * Add a field on the website showing when data was last refreshed and when it is expected to be refreshed again. 
 
 ## Inspiration and attribution :pray:
 * https://github.com/sw-yx/gh-action-data-scraping
