@@ -22,13 +22,7 @@
         "state": "NY",
         "zip": "11042"
       },
-      "events": [
-        {
-          "date": "2021-01-12T00:00:00.000Z",
-          "time": "07:00 AM - 09:45 PM",
-          "available": true
-        }
-      ]
+      "events": []
     },
     {
       "name": "NYS DOH Hospital/FQHC Appointment Scheduling COVID-19 at Nassau University Medical Center",
@@ -39,8 +33,7 @@
         "city": "East Meadow",
         "state": "NY",
         "zip": "11554"
-      },
-      "events": []
+      }
     },
     {
       "name": "Northwell CoVID-19 Vaccination Program: Nassau County - Elmont",
@@ -78,17 +71,12 @@
       },
       "events": [
         {
-          "date": "2021-03-07T00:00:00.000Z",
+          "date": "2021-03-06T00:00:00.000Z",
           "time": "08:00 AM - 06:30 PM",
           "available": true
         },
         {
-          "date": "2021-03-16T00:00:00.000Z",
-          "time": "08:00 AM - 06:30 PM",
-          "available": true
-        },
-        {
-          "date": "2021-03-17T00:00:00.000Z",
+          "date": "2021-03-12T00:00:00.000Z",
           "time": "08:00 AM - 06:30 PM",
           "available": true
         },
