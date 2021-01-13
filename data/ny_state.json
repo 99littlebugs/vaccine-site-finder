@@ -78,57 +78,57 @@
           "linkId": "Marker0Div"
         },
         {
-          "date": "2021-04-08T00:00:00.000Z",
+          "date": "2021-03-30T00:00:00.000Z",
           "time": "08:00 AM - 06:30 PM",
-          "appointments": "19",
-          "linkId": "Marker85Div"
+          "appointments": "1",
+          "linkId": "Marker76Div"
         },
         {
           "date": "2021-04-09T00:00:00.000Z",
           "time": "08:00 AM - 06:30 PM",
-          "appointments": "190",
+          "appointments": "7",
           "linkId": "Marker86Div"
         },
         {
           "date": "2021-04-10T00:00:00.000Z",
           "time": "08:00 AM - 06:30 PM",
-          "appointments": "206",
+          "appointments": "181",
           "linkId": "Marker87Div"
         },
         {
           "date": "2021-04-11T00:00:00.000Z",
           "time": "08:00 AM - 06:30 PM",
-          "appointments": "238",
+          "appointments": "229",
           "linkId": "Marker88Div"
         },
         {
           "date": "2021-04-12T00:00:00.000Z",
           "time": "08:00 AM - 06:30 PM",
-          "appointments": "176",
+          "appointments": "165",
           "linkId": "Marker89Div"
         },
         {
           "date": "2021-04-13T00:00:00.000Z",
           "time": "08:00 AM - 06:30 PM",
-          "appointments": "249",
+          "appointments": "244",
           "linkId": "Marker90Div"
         },
         {
           "date": "2021-04-14T00:00:00.000Z",
           "time": "08:00 AM - 06:30 PM",
-          "appointments": "249",
+          "appointments": "246",
           "linkId": "Marker91Div"
         },
         {
           "date": "2021-04-15T00:00:00.000Z",
           "time": "08:00 AM - 06:30 PM",
-          "appointments": "242",
+          "appointments": "238",
           "linkId": "Marker92Div"
         },
         {
           "date": "2021-04-16T00:00:00.000Z",
           "time": "08:00 AM - 06:30 PM",
-          "appointments": "164",
+          "appointments": "149",
           "linkId": "Marker93Div"
         }
       ]
@@ -161,7 +161,8 @@
         "city": "Garden City",
         "state": "NY",
         "zip": "11530"
-      }
+      },
+      "events": []
     },
     {
       "name": "NCDOH at Yes We Can Community Center",
@@ -172,7 +173,8 @@
         "city": "Westbury",
         "state": "NY",
         "zip": "11590"
-      }
+      },
+      "events": []
     }
   ]
 }
