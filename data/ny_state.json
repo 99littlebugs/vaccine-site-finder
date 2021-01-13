@@ -1,33 +1,5 @@
 {
-  "events": [
-    {
-      "name": "NYS DOH Hospital/FQHC Appointment Scheduling COVID-19 at Nassau University Medical Center",
-      "link": "https://apps.health.ny.gov/doh2/applinks/cdmspr/2/counties?OpID=50500121",
-      "address": {
-        "name": "Nassau University Medical Center",
-        "street": "2201 Hempstead Turnpike",
-        "city": "East Meadow",
-        "state": "NY",
-        "zip": "11554"
-      },
-      "date": "Date: February 01, 2021",
-      "time": "Time: 06:15 AM - 05:45 PM",
-      "available": false
-    },
-    {
-      "name": "NYS DOH Hospital/FQHC Appointment Scheduling COVID-19 at Nassau University Medical Center",
-      "link": "https://apps.health.ny.gov/doh2/applinks/cdmspr/2/counties?OpID=50500121",
-      "address": {
-        "name": "Nassau University Medical Center",
-        "street": "2201 Hempstead Turnpike",
-        "city": "East Meadow",
-        "state": "NY",
-        "zip": "11554"
-      },
-      "date": "Date: February 02, 2021",
-      "time": "Time: 06:15 AM - 05:45 PM",
-      "available": false
-    },
+  "sites": [
     {
       "name": "NYS DOH Hospital / FQHC Scheduling COVID-19 Sutphin Health Center",
       "link": "https://apps.health.ny.gov/doh2/applinks/cdmspr/2/counties?OpID=50501251",
@@ -38,149 +10,7 @@
         "state": "NY",
         "zip": "11435"
       },
-      "date": "Date: February 02, 2021",
-      "time": "Time: 10:00 AM - 05:00 PM",
-      "available": false
-    },
-    {
-      "name": "NYS DOH Hospital/FQHC Appointment Scheduling COVID-19 at Nassau University Medical Center",
-      "link": "https://apps.health.ny.gov/doh2/applinks/cdmspr/2/counties?OpID=50500121",
-      "address": {
-        "name": "Nassau University Medical Center",
-        "street": "2201 Hempstead Turnpike",
-        "city": "East Meadow",
-        "state": "NY",
-        "zip": "11554"
-      },
-      "date": "Date: February 03, 2021",
-      "time": "Time: 06:15 AM - 05:45 PM",
-      "available": false
-    },
-    {
-      "name": "NYS DOH Hospital / FQHC Scheduling COVID-19 Sutphin Health Center",
-      "link": "https://apps.health.ny.gov/doh2/applinks/cdmspr/2/counties?OpID=50501251",
-      "address": {
-        "name": "Sutphin Health Center",
-        "street": "105-04 Sutphin Boulevard",
-        "city": "Queens",
-        "state": "NY",
-        "zip": "11435"
-      },
-      "date": "Date: February 03, 2021",
-      "time": "Time: 10:00 AM - 05:00 PM",
-      "available": false
-    },
-    {
-      "name": "NYS DOH Hospital/FQHC Appointment Scheduling COVID-19 at Nassau University Medical Center",
-      "link": "https://apps.health.ny.gov/doh2/applinks/cdmspr/2/counties?OpID=50500121",
-      "address": {
-        "name": "Nassau University Medical Center",
-        "street": "2201 Hempstead Turnpike",
-        "city": "East Meadow",
-        "state": "NY",
-        "zip": "11554"
-      },
-      "date": "Date: February 04, 2021",
-      "time": "Time: 06:15 AM - 05:45 PM",
-      "available": false
-    },
-    {
-      "name": "NYS DOH Hospital/FQHC Appointment Scheduling COVID-19 at Nassau University Medical Center",
-      "link": "https://apps.health.ny.gov/doh2/applinks/cdmspr/2/counties?OpID=50500121",
-      "address": {
-        "name": "Nassau University Medical Center",
-        "street": "2201 Hempstead Turnpike",
-        "city": "East Meadow",
-        "state": "NY",
-        "zip": "11554"
-      },
-      "date": "Date: February 05, 2021",
-      "time": "Time: 06:15 AM - 05:45 PM",
-      "available": false
-    },
-    {
-      "name": "NYS DOH Hospital / FQHC Scheduling COVID-19 Sutphin Health Center",
-      "link": "https://apps.health.ny.gov/doh2/applinks/cdmspr/2/counties?OpID=50501251",
-      "address": {
-        "name": "Sutphin Health Center",
-        "street": "105-04 Sutphin Boulevard",
-        "city": "Queens",
-        "state": "NY",
-        "zip": "11435"
-      },
-      "date": "Date: February 09, 2021",
-      "time": "Time: 10:00 AM - 05:00 PM",
-      "available": false
-    },
-    {
-      "name": "NYS DOH Hospital / FQHC Scheduling COVID-19 Sutphin Health Center",
-      "link": "https://apps.health.ny.gov/doh2/applinks/cdmspr/2/counties?OpID=50501251",
-      "address": {
-        "name": "Sutphin Health Center",
-        "street": "105-04 Sutphin Boulevard",
-        "city": "Queens",
-        "state": "NY",
-        "zip": "11435"
-      },
-      "date": "Date: February 10, 2021",
-      "time": "Time: 10:00 AM - 05:00 PM",
-      "available": false
-    },
-    {
-      "name": "NYS DOH Hospital / FQHC Scheduling COVID-19 Sutphin Health Center",
-      "link": "https://apps.health.ny.gov/doh2/applinks/cdmspr/2/counties?OpID=50501251",
-      "address": {
-        "name": "Sutphin Health Center",
-        "street": "105-04 Sutphin Boulevard",
-        "city": "Queens",
-        "state": "NY",
-        "zip": "11435"
-      },
-      "date": "Date: February 16, 2021",
-      "time": "Time: 10:00 AM - 05:00 PM",
-      "available": false
-    },
-    {
-      "name": "NYS DOH Hospital / FQHC Scheduling COVID-19 Sutphin Health Center",
-      "link": "https://apps.health.ny.gov/doh2/applinks/cdmspr/2/counties?OpID=50501251",
-      "address": {
-        "name": "Sutphin Health Center",
-        "street": "105-04 Sutphin Boulevard",
-        "city": "Queens",
-        "state": "NY",
-        "zip": "11435"
-      },
-      "date": "Date: February 17, 2021",
-      "time": "Time: 10:00 AM - 05:00 PM",
-      "available": false
-    },
-    {
-      "name": "NYS DOH Hospital / FQHC Scheduling COVID-19 Sutphin Health Center",
-      "link": "https://apps.health.ny.gov/doh2/applinks/cdmspr/2/counties?OpID=50501251",
-      "address": {
-        "name": "Sutphin Health Center",
-        "street": "105-04 Sutphin Boulevard",
-        "city": "Queens",
-        "state": "NY",
-        "zip": "11435"
-      },
-      "date": "Date: February 23, 2021",
-      "time": "Time: 10:00 AM - 05:00 PM",
-      "available": false
-    },
-    {
-      "name": "NYS DOH Hospital / FQHC Scheduling COVID-19 Sutphin Health Center",
-      "link": "https://apps.health.ny.gov/doh2/applinks/cdmspr/2/counties?OpID=50501251",
-      "address": {
-        "name": "Sutphin Health Center",
-        "street": "105-04 Sutphin Boulevard",
-        "city": "Queens",
-        "state": "NY",
-        "zip": "11435"
-      },
-      "date": "Date: February 24, 2021",
-      "time": "Time: 10:00 AM - 05:00 PM",
-      "available": false
+      "events": []
     },
     {
       "name": "Northwell CoVID-19 Vaccination Program: Nassau County - Lake Success",
@@ -192,9 +22,13 @@
         "state": "NY",
         "zip": "11042"
       },
-      "date": "Date: January 12, 2021",
-      "time": "Time: 07:00 AM - 09:45 PM",
-      "available": true
+      "events": [
+        {
+          "date": "2021-01-12T00:00:00.000Z",
+          "time": "07:00 AM - 09:45 PM",
+          "available": true
+        }
+      ]
     },
     {
       "name": "NYS DOH Hospital/FQHC Appointment Scheduling COVID-19 at Nassau University Medical Center",
@@ -206,191 +40,234 @@
         "state": "NY",
         "zip": "11554"
       },
-      "date": "Date: January 13, 2021",
-      "time": "Time: 06:15 AM - 10:00 PM",
-      "available": false
+      "events": []
     },
     {
-      "name": "NYS DOH Hospital/FQHC Appointment Scheduling COVID-19 at Nassau University Medical Center",
-      "link": "https://apps.health.ny.gov/doh2/applinks/cdmspr/2/counties?OpID=50500121",
+      "name": "Northwell CoVID-19 Vaccination Program: Nassau County - Elmont",
+      "link": "https://apps.health.ny.gov/doh2/applinks/cdmspr/2/counties?OpID=50501190",
       "address": {
-        "name": "Nassau University Medical Center",
-        "street": "2201 Hempstead Turnpike",
-        "city": "East Meadow",
+        "name": "NYRA/Belmont",
+        "street": "2150 Hempstead Turnpike",
+        "city": "Elmont",
         "state": "NY",
-        "zip": "11554"
+        "zip": "11053"
       },
-      "date": "Date: January 18, 2021",
-      "time": "Time: 08:00 AM - 06:00 PM",
-      "available": false
+      "events": []
     },
     {
-      "name": "NYS DOH Hospital/FQHC Appointment Scheduling COVID-19 at Nassau University Medical Center",
-      "link": "https://apps.health.ny.gov/doh2/applinks/cdmspr/2/counties?OpID=50500121",
+      "name": "FIRST DOSE - NYS DOH Hospital/FQHC Appointment Scheduling COVID-19 at Mount Sinai South Nassau",
+      "link": "https://apps.health.ny.gov/doh2/applinks/cdmspr/2/counties?OpID=50500074",
       "address": {
-        "name": "Nassau University Medical Center",
-        "street": "2201 Hempstead Turnpike",
-        "city": "East Meadow",
+        "name": "Mount Sinai South Nassau",
+        "street": "One Healthy Way",
+        "city": "Oceanside",
         "state": "NY",
-        "zip": "11554"
+        "zip": "11598"
       },
-      "date": "Date: January 19, 2021",
-      "time": "Time: 06:15 AM - 10:00 PM",
-      "available": false
+      "events": []
     },
     {
-      "name": "NYS DOH Hospital / FQHC Scheduling COVID-19 Sutphin Health Center",
-      "link": "https://apps.health.ny.gov/doh2/applinks/cdmspr/2/counties?OpID=50501251",
+      "name": "NYS COVID Vaccine POD - JAVax - Manhattan, N.Y.",
+      "link": "https://apps.health.ny.gov/doh2/applinks/cdmspr/2/counties?OpID=50502320",
       "address": {
-        "name": "Sutphin Health Center",
-        "street": "105-04 Sutphin Boulevard",
-        "city": "Queens",
+        "name": "JAVax Manhattan, N.Y.",
+        "street": "429 11th Avenue",
+        "city": "New York",
         "state": "NY",
-        "zip": "11435"
+        "zip": "10018"
       },
-      "date": "Date: January 19, 2021",
-      "time": "Time: 10:00 AM - 05:00 PM",
-      "available": false
-    },
-    {
-      "name": "NYS DOH Hospital / FQHC Scheduling COVID-19 Sutphin Health Center",
-      "link": "https://apps.health.ny.gov/doh2/applinks/cdmspr/2/counties?OpID=50501251",
-      "address": {
-        "name": "Sutphin Health Center",
-        "street": "105-04 Sutphin Boulevard",
-        "city": "Queens",
-        "state": "NY",
-        "zip": "11435"
-      },
-      "date": "Date: January 20, 2021",
-      "time": "Time: 10:00 AM - 05:00 PM",
-      "available": false
-    },
-    {
-      "name": "NYS DOH Hospital/FQHC Appointment Scheduling COVID-19 at Nassau University Medical Center",
-      "link": "https://apps.health.ny.gov/doh2/applinks/cdmspr/2/counties?OpID=50500121",
-      "address": {
-        "name": "Nassau University Medical Center",
-        "street": "2201 Hempstead Turnpike",
-        "city": "East Meadow",
-        "state": "NY",
-        "zip": "11554"
-      },
-      "date": "Date: January 21, 2021",
-      "time": "Time: 06:15 AM - 06:00 PM",
-      "available": false
-    },
-    {
-      "name": "NYS DOH Hospital/FQHC Appointment Scheduling COVID-19 at Nassau University Medical Center",
-      "link": "https://apps.health.ny.gov/doh2/applinks/cdmspr/2/counties?OpID=50500121",
-      "address": {
-        "name": "Nassau University Medical Center",
-        "street": "2201 Hempstead Turnpike",
-        "city": "East Meadow",
-        "state": "NY",
-        "zip": "11554"
-      },
-      "date": "Date: January 22, 2021",
-      "time": "Time: 06:15 AM - 06:00 PM",
-      "available": false
-    },
-    {
-      "name": "NYS DOH Hospital/FQHC Appointment Scheduling COVID-19 at Nassau University Medical Center",
-      "link": "https://apps.health.ny.gov/doh2/applinks/cdmspr/2/counties?OpID=50500121",
-      "address": {
-        "name": "Nassau University Medical Center",
-        "street": "2201 Hempstead Turnpike",
-        "city": "East Meadow",
-        "state": "NY",
-        "zip": "11554"
-      },
-      "date": "Date: January 25, 2021",
-      "time": "Time: 06:15 AM - 06:00 PM",
-      "available": false
-    },
-    {
-      "name": "NYS DOH Hospital/FQHC Appointment Scheduling COVID-19 at Nassau University Medical Center",
-      "link": "https://apps.health.ny.gov/doh2/applinks/cdmspr/2/counties?OpID=50500121",
-      "address": {
-        "name": "Nassau University Medical Center",
-        "street": "2201 Hempstead Turnpike",
-        "city": "East Meadow",
-        "state": "NY",
-        "zip": "11554"
-      },
-      "date": "Date: January 26, 2021",
-      "time": "Time: 06:15 AM - 06:00 PM",
-      "available": false
-    },
-    {
-      "name": "NYS DOH Hospital / FQHC Scheduling COVID-19 Sutphin Health Center",
-      "link": "https://apps.health.ny.gov/doh2/applinks/cdmspr/2/counties?OpID=50501251",
-      "address": {
-        "name": "Sutphin Health Center",
-        "street": "105-04 Sutphin Boulevard",
-        "city": "Queens",
-        "state": "NY",
-        "zip": "11435"
-      },
-      "date": "Date: January 26, 2021",
-      "time": "Time: 10:00 AM - 05:00 PM",
-      "available": false
-    },
-    {
-      "name": "NYS DOH Hospital/FQHC Appointment Scheduling COVID-19 at Nassau University Medical Center",
-      "link": "https://apps.health.ny.gov/doh2/applinks/cdmspr/2/counties?OpID=50500121",
-      "address": {
-        "name": "Nassau University Medical Center",
-        "street": "2201 Hempstead Turnpike",
-        "city": "East Meadow",
-        "state": "NY",
-        "zip": "11554"
-      },
-      "date": "Date: January 27, 2021",
-      "time": "Time: 06:15 AM - 05:45 PM",
-      "available": false
-    },
-    {
-      "name": "NYS DOH Hospital / FQHC Scheduling COVID-19 Sutphin Health Center",
-      "link": "https://apps.health.ny.gov/doh2/applinks/cdmspr/2/counties?OpID=50501251",
-      "address": {
-        "name": "Sutphin Health Center",
-        "street": "105-04 Sutphin Boulevard",
-        "city": "Queens",
-        "state": "NY",
-        "zip": "11435"
-      },
-      "date": "Date: January 27, 2021",
-      "time": "Time: 10:00 AM - 05:00 PM",
-      "available": false
-    },
-    {
-      "name": "NYS DOH Hospital/FQHC Appointment Scheduling COVID-19 at Nassau University Medical Center",
-      "link": "https://apps.health.ny.gov/doh2/applinks/cdmspr/2/counties?OpID=50500121",
-      "address": {
-        "name": "Nassau University Medical Center",
-        "street": "2201 Hempstead Turnpike",
-        "city": "East Meadow",
-        "state": "NY",
-        "zip": "11554"
-      },
-      "date": "Date: January 28, 2021",
-      "time": "Time: 06:15 AM - 06:00 PM",
-      "available": false
-    },
-    {
-      "name": "NYS DOH Hospital/FQHC Appointment Scheduling COVID-19 at Nassau University Medical Center",
-      "link": "https://apps.health.ny.gov/doh2/applinks/cdmspr/2/counties?OpID=50500121",
-      "address": {
-        "name": "Nassau University Medical Center",
-        "street": "2201 Hempstead Turnpike",
-        "city": "East Meadow",
-        "state": "NY",
-        "zip": "11554"
-      },
-      "date": "Date: January 29, 2021",
-      "time": "Time: 06:15 AM - 06:00 PM",
-      "available": false
+      "events": [
+        {
+          "date": "2021-03-04T00:00:00.000Z",
+          "time": "08:00 AM - 06:30 PM",
+          "available": true
+        },
+        {
+          "date": "2021-03-11T00:00:00.000Z",
+          "time": "08:00 AM - 06:30 PM",
+          "available": true
+        },
+        {
+          "date": "2021-03-12T00:00:00.000Z",
+          "time": "08:00 AM - 06:30 PM",
+          "available": true
+        },
+        {
+          "date": "2021-03-13T00:00:00.000Z",
+          "time": "08:00 AM - 06:30 PM",
+          "available": true
+        },
+        {
+          "date": "2021-03-14T00:00:00.000Z",
+          "time": "08:00 AM - 06:30 PM",
+          "available": true
+        },
+        {
+          "date": "2021-03-15T00:00:00.000Z",
+          "time": "08:00 AM - 06:30 PM",
+          "available": true
+        },
+        {
+          "date": "2021-03-16T00:00:00.000Z",
+          "time": "08:00 AM - 06:30 PM",
+          "available": true
+        },
+        {
+          "date": "2021-03-17T00:00:00.000Z",
+          "time": "08:00 AM - 06:30 PM",
+          "available": true
+        },
+        {
+          "date": "2021-03-18T00:00:00.000Z",
+          "time": "08:00 AM - 06:30 PM",
+          "available": true
+        },
+        {
+          "date": "2021-03-19T00:00:00.000Z",
+          "time": "08:00 AM - 06:30 PM",
+          "available": true
+        },
+        {
+          "date": "2021-03-20T00:00:00.000Z",
+          "time": "08:00 AM - 06:30 PM",
+          "available": true
+        },
+        {
+          "date": "2021-03-21T00:00:00.000Z",
+          "time": "08:00 AM - 06:30 PM",
+          "available": true
+        },
+        {
+          "date": "2021-03-22T00:00:00.000Z",
+          "time": "08:00 AM - 06:30 PM",
+          "available": true
+        },
+        {
+          "date": "2021-03-23T00:00:00.000Z",
+          "time": "08:00 AM - 06:30 PM",
+          "available": true
+        },
+        {
+          "date": "2021-03-24T00:00:00.000Z",
+          "time": "08:00 AM - 06:30 PM",
+          "available": true
+        },
+        {
+          "date": "2021-03-25T00:00:00.000Z",
+          "time": "08:00 AM - 06:30 PM",
+          "available": true
+        },
+        {
+          "date": "2021-03-26T00:00:00.000Z",
+          "time": "08:00 AM - 06:30 PM",
+          "available": true
+        },
+        {
+          "date": "2021-03-27T00:00:00.000Z",
+          "time": "08:00 AM - 06:30 PM",
+          "available": true
+        },
+        {
+          "date": "2021-03-28T00:00:00.000Z",
+          "time": "08:00 AM - 06:30 PM",
+          "available": true
+        },
+        {
+          "date": "2021-03-29T00:00:00.000Z",
+          "time": "08:00 AM - 06:30 PM",
+          "available": true
+        },
+        {
+          "date": "2021-03-30T00:00:00.000Z",
+          "time": "08:00 AM - 06:30 PM",
+          "available": true
+        },
+        {
+          "date": "2021-03-31T00:00:00.000Z",
+          "time": "08:00 AM - 06:30 PM",
+          "available": true
+        },
+        {
+          "date": "2021-04-01T00:00:00.000Z",
+          "time": "08:00 AM - 06:30 PM",
+          "available": true
+        },
+        {
+          "date": "2021-04-02T00:00:00.000Z",
+          "time": "08:00 AM - 06:30 PM",
+          "available": true
+        },
+        {
+          "date": "2021-04-03T00:00:00.000Z",
+          "time": "08:00 AM - 06:30 PM",
+          "available": true
+        },
+        {
+          "date": "2021-04-04T00:00:00.000Z",
+          "time": "08:00 AM - 06:30 PM",
+          "available": true
+        },
+        {
+          "date": "2021-04-05T00:00:00.000Z",
+          "time": "08:00 AM - 06:30 PM",
+          "available": true
+        },
+        {
+          "date": "2021-04-06T00:00:00.000Z",
+          "time": "08:00 AM - 06:30 PM",
+          "available": true
+        },
+        {
+          "date": "2021-04-07T00:00:00.000Z",
+          "time": "08:00 AM - 06:30 PM",
+          "available": true
+        },
+        {
+          "date": "2021-04-08T00:00:00.000Z",
+          "time": "08:00 AM - 06:30 PM",
+          "available": true
+        },
+        {
+          "date": "2021-04-09T00:00:00.000Z",
+          "time": "08:00 AM - 06:30 PM",
+          "available": true
+        },
+        {
+          "date": "2021-04-10T00:00:00.000Z",
+          "time": "08:00 AM - 06:30 PM",
+          "available": true
+        },
+        {
+          "date": "2021-04-11T00:00:00.000Z",
+          "time": "08:00 AM - 06:30 PM",
+          "available": true
+        },
+        {
+          "date": "2021-04-12T00:00:00.000Z",
+          "time": "08:00 AM - 06:30 PM",
+          "available": true
+        },
+        {
+          "date": "2021-04-13T00:00:00.000Z",
+          "time": "08:00 AM - 06:30 PM",
+          "available": true
+        },
+        {
+          "date": "2021-04-14T00:00:00.000Z",
+          "time": "08:00 AM - 06:30 PM",
+          "available": true
+        },
+        {
+          "date": "2021-04-15T00:00:00.000Z",
+          "time": "08:00 AM - 06:30 PM",
+          "available": true
+        },
+        {
+          "date": "2021-04-16T00:00:00.000Z",
+          "time": "08:00 AM - 06:30 PM",
+          "available": true
+        }
+      ]
     }
   ]
 }
