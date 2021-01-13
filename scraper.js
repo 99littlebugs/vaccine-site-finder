@@ -71,9 +71,41 @@ const nyGovSites = [{
         state: "NY",
         zip: "10018"
     }
+},
+{
+    name: "Northwell CoVID-19 Vaccination Program: Manhattan - Lenox Hill Hospital",
+    link: "https://apps.health.ny.gov/doh2/applinks/cdmspr/2/counties?OpID=50501473",
+    address: {
+        name: "LHH Einhorn Auditorium",
+        street: "131 East 76th Street",
+        city: "New York",
+        state: "NY",
+        zip: "10021"
+    }
+},
+{
+    name: "NC Dept. of Health at Nassau Community College CCB",
+    link: "https://apps.health.ny.gov/doh2/applinks/cdmspr/2/counties?OpID=50500881",
+    address: {
+        name: "Nassau Community College",
+        street: "1 Education Drive",
+        city: "Garden City",
+        state: "NY",
+        zip: "11530"
+    }
+},
+{
+    name: "NCDOH at Yes We Can Community Center",
+    link: "https://apps.health.ny.gov/doh2/applinks/cdmspr/2/counties?OpID=50501806",
+    address: {
+        name: "Yes We Can Community Center",
+        street: "141 Garden Street",
+        city: "Westbury",
+        state: "NY",
+        zip: "11590"
+    }
 }];
 
-const events = [];
 let promises = [];
 
 for (const site of nyGovSites) {
