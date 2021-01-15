@@ -21,3 +21,4 @@ Pull requests are welcome!
 * https://simonwillison.net/2020/Oct/9/git-scraping/
 * https://medium.com/javascript-in-plain-english/cheerio-script-for-turning-html-pages-into-json-files-8e9363106904
 * http://getskeleton.com/
+* https://www.iconfinder.com/icons/5991794/coronavirus_cure_injection_needle_vaccination_vaccine_icon
