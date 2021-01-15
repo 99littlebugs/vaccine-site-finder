@@ -118,7 +118,14 @@
         "state": "NY",
         "zip": "11793"
       },
-      "events": []
+      "events": [
+        {
+          "date": "2021-01-15T00:00:00.000Z",
+          "time": "08:00 AM - 06:30 PM",
+          "appointments": "1",
+          "linkId": "Marker0Div"
+        }
+      ]
     },
     {
       "name": "NYS COVID Vaccine POD - Westchester County Center",
@@ -130,7 +137,20 @@
         "state": "NY",
         "zip": "10607"
       },
-      "events": []
+      "events": [
+        {
+          "date": "2021-01-15T00:00:00.000Z",
+          "time": "08:00 AM - 06:30 PM",
+          "appointments": "1",
+          "linkId": "Marker0Div"
+        },
+        {
+          "date": "2021-02-07T00:00:00.000Z",
+          "time": "08:00 AM - 06:30 PM",
+          "appointments": "1",
+          "linkId": "Marker23Div"
+        }
+      ]
     }
   ]
 }
