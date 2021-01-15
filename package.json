@@ -6,10 +6,9 @@
         "build": "node ./build.js"
     },
     "dependencies": {
-        "axios": "^0.21.1",
-        "cheerio": "^1.0.0-rc.5",
         "fs": "0.0.1-security",
         "handlebars": "^4.7.6",
-        "path": "^0.12.7"
+        "path": "^0.12.7",
+        "puppeteer": "^2.1.1"
     }
 }
