@@ -113,6 +113,17 @@ const nyGovSites = [{
         state: "NY",
         zip: "11793"
     }
+},
+{
+    name: "NYS COVID Vaccine POD - Westchester County Center",
+    link: "https://apps3.health.ny.gov/doh2/applinks/cdmspr/2/counties?OpID=50502420",
+    address: {
+        name: "Westchester County Center",
+        street: "198 Central Avenue",
+        city: "White Plains",
+        state: "NY",
+        zip: "10607"
+    }
 }];
 
 (async () => {
