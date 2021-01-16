@@ -130,7 +130,14 @@
         "state": "NY",
         "zip": "10607"
       },
-      "events": []
+      "events": [
+        {
+          "date": "2021-03-22T00:00:00.000Z",
+          "time": "08:00:00.0 - 18:30:00.0",
+          "appointments": "1",
+          "linkId": "Marker0Div"
+        }
+      ]
     }
   ]
 }
