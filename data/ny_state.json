@@ -70,7 +70,20 @@
         "state": "NY",
         "zip": "10018"
       },
-      "events": []
+      "events": [
+        {
+          "date": "2021-01-25T00:00:00.000Z",
+          "time": "08:00 AM - 06:30 PM",
+          "appointments": "1",
+          "linkId": "Marker9Div"
+        },
+        {
+          "date": "2021-01-28T00:00:00.000Z",
+          "time": "08:00 AM - 06:30 PM",
+          "appointments": "1",
+          "linkId": "Marker12Div"
+        }
+      ]
     },
     {
       "name": "Northwell CoVID-19 Vaccination Program: Manhattan - Lenox Hill Hospital",
@@ -94,7 +107,14 @@
         "state": "NY",
         "zip": "11530"
       },
-      "events": []
+      "events": [
+        {
+          "date": "2021-01-16T00:00:00.000Z",
+          "time": "11:00 AM - 03:00 PM",
+          "appointments": "282",
+          "linkId": "Marker0Div"
+        }
+      ]
     },
     {
       "name": "NCDOH at Yes We Can Community Center",
@@ -106,7 +126,14 @@
         "state": "NY",
         "zip": "11590"
       },
-      "events": []
+      "events": [
+        {
+          "date": "2021-01-16T00:00:00.000Z",
+          "time": "11:00 AM - 03:30 PM",
+          "appointments": "240",
+          "linkId": "Marker0Div"
+        }
+      ]
     },
     {
       "name": "NYS COVID Vaccine POD - Jones Beach State Park - Field 3",
