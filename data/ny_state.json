@@ -94,14 +94,7 @@
         "state": "NY",
         "zip": "11530"
       },
-      "events": [
-        {
-          "date": "2021-01-16T00:00:00.000Z",
-          "time": "11:00 AM - 03:00 PM",
-          "appointments": "94",
-          "linkId": "Marker0Div"
-        }
-      ]
+      "events": []
     },
     {
       "name": "NCDOH at Yes We Can Community Center",
@@ -113,14 +106,7 @@
         "state": "NY",
         "zip": "11590"
       },
-      "events": [
-        {
-          "date": "2021-01-16T00:00:00.000Z",
-          "time": "11:00 AM - 03:30 PM",
-          "appointments": "106",
-          "linkId": "Marker0Div"
-        }
-      ]
+      "events": []
     },
     {
       "name": "NYS COVID Vaccine POD - Jones Beach State Park - Field 3",
@@ -132,20 +118,7 @@
         "state": "NY",
         "zip": "11793"
       },
-      "events": [
-        {
-          "date": "2021-04-01T00:00:00.000Z",
-          "time": "08:00 AM - 06:30 PM",
-          "appointments": "2",
-          "linkId": "Marker75Div"
-        },
-        {
-          "date": "2021-04-06T00:00:00.000Z",
-          "time": "08:00 AM - 06:30 PM",
-          "appointments": "3",
-          "linkId": "Marker80Div"
-        }
-      ]
+      "events": []
     },
     {
       "name": "NYS COVID Vaccine POD - Westchester County Center",
