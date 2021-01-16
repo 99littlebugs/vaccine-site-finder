@@ -74,8 +74,38 @@
         {
           "date": "2021-01-16T00:00:00.000Z",
           "time": "08:00:00.0 - 18:30:00.0",
-          "appointments": "1",
+          "appointments": "2",
           "linkId": "Marker0Div"
+        },
+        {
+          "date": "2021-02-08T00:00:00.000Z",
+          "time": "08:00:00.0 - 18:30:00.0",
+          "appointments": "1",
+          "linkId": "Marker3Div"
+        },
+        {
+          "date": "2021-02-09T00:00:00.000Z",
+          "time": "08:00:00.0 - 18:30:00.0",
+          "appointments": "1",
+          "linkId": "Marker4Div"
+        },
+        {
+          "date": "2021-03-11T00:00:00.000Z",
+          "time": "08:00:00.0 - 18:30:00.0",
+          "appointments": "1",
+          "linkId": "Marker5Div"
+        },
+        {
+          "date": "2021-03-14T00:00:00.000Z",
+          "time": "08:00:00.0 - 18:30:00.0",
+          "appointments": "2",
+          "linkId": "Marker6Div"
+        },
+        {
+          "date": "2021-03-15T00:00:00.000Z",
+          "time": "08:00:00.0 - 18:30:00.0",
+          "appointments": "1",
+          "linkId": "Marker7Div"
         }
       ]
     },
