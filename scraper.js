@@ -127,38 +127,41 @@ const nyGovSites = [{
 }];
 
 (async () => {
-    // todo: parallelize?
     const browser = await puppeteer.launch();
-    const [page] = await browser.pages();
+    const promises = [];
     for (const site of nyGovSites) {
-        site.events = [];
-        try {
-            await page.setUserAgent('Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/87.0.4280.141 Safari/537.36 Edg/87.0.664.75');
-            await page.goto(site.link);
-            await page.waitForSelector("#pagetitle, h1", { timeout: 10000 });
-            const isError = await page.$("h1");
-            if (!isError) {
-                site.events = await page.evaluate(() => {
-                    const events = [];
-                    const eventsWeb = $(".event-type");
-                    for (const event of eventsWeb) {
-                        const isAvailable = $(event).find("button").text() !== "Event Full";
-                        if (isAvailable) {
-                            events.push({
-                                date: new Date($(event).find("div div:contains('Date:'):last").first().text().substring(6) + " UTC").toISOString(),
-                                time: $(event).find("div div:contains('Time:'):last").first().text().substring(6),
-                                appointments: $(event).find("div div:contains('Appointments Available:'):last").first().text().substring(24),
-                                linkId: $(event).parent().attr("id")
-                            });
+        promises.push((async () => {
+            site.events = [];
+            try {
+                const page = await browser.newPage();
+                await page.setUserAgent('Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/87.0.4280.141 Safari/537.36 Edg/87.0.664.75');
+                await page.goto(site.link, {timeout: 10000});
+                await page.waitForSelector("#pagetitle, h1", { timeout: 10000 });
+                const isError = await page.$("h1");
+                if (!isError) {
+                    site.events = await page.evaluate(() => {
+                        const events = [];
+                        const eventsWeb = $(".event-type");
+                        for (const event of eventsWeb) {
+                            const isAvailable = $(event).find("button").text() !== "Event Full";
+                            if (isAvailable) {
+                                events.push({
+                                    date: new Date($(event).find("div div:contains('Date:'):last").first().text().substring(6) + " UTC").toISOString(),
+                                    time: $(event).find("div div:contains('Time:'):last").first().text().substring(6),
+                                    appointments: $(event).find("div div:contains('Appointments Available:'):last").first().text().substring(24),
+                                    linkId: $(event).parent().attr("id")
+                                });
+                            }
                         }
-                    }
-                    return events;
-                });
+                        return events;
+                    });
+                }
+            } catch (err) {
+                console.error(site.link + ": " + err); // todo: log oout to node
             }
-        } catch (err) {
-            console.error(site.link + ": " + err); // todo: log oout to node
-        }
+        })())
     }
+    await Promise.all(promises);
     await browser.close();
 
     const data = JSON.stringify({ sites: nyGovSites }, null, 2);
