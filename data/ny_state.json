@@ -70,7 +70,50 @@
         "state": "NY",
         "zip": "10018"
       },
-      "events": []
+      "events": [
+        {
+          "date": "2021-02-04T00:00:00.000Z",
+          "time": "08:00:00.0 - 18:30:00.0",
+          "appointments": "1",
+          "linkId": "Marker0Div"
+        },
+        {
+          "date": "2021-02-05T00:00:00.000Z",
+          "time": "08:00:00.0 - 18:30:00.0",
+          "appointments": "1",
+          "linkId": "Marker1Div"
+        },
+        {
+          "date": "2021-02-28T00:00:00.000Z",
+          "time": "08:00:00.0 - 18:30:00.0",
+          "appointments": "1",
+          "linkId": "Marker2Div"
+        },
+        {
+          "date": "2021-03-17T00:00:00.000Z",
+          "time": "08:00:00.0 - 18:30:00.0",
+          "appointments": "1",
+          "linkId": "Marker3Div"
+        },
+        {
+          "date": "2021-03-21T00:00:00.000Z",
+          "time": "08:00:00.0 - 18:30:00.0",
+          "appointments": "1",
+          "linkId": "Marker4Div"
+        },
+        {
+          "date": "2021-03-23T00:00:00.000Z",
+          "time": "08:00:00.0 - 18:30:00.0",
+          "appointments": "1",
+          "linkId": "Marker5Div"
+        },
+        {
+          "date": "2021-04-12T00:00:00.000Z",
+          "time": "08:00:00.0 - 18:30:00.0",
+          "appointments": "1",
+          "linkId": "Marker6Div"
+        }
+      ]
     },
     {
       "name": "Northwell CoVID-19 Vaccination Program: Manhattan - Lenox Hill Hospital",
