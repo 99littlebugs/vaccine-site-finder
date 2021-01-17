@@ -76,6 +76,60 @@
           "time": "08:00:00.0 - 18:30:00.0",
           "appointments": "2",
           "linkId": "Marker0Div"
+        },
+        {
+          "date": "2021-01-28T00:00:00.000Z",
+          "time": "08:00:00.0 - 18:30:00.0",
+          "appointments": "1",
+          "linkId": "Marker1Div"
+        },
+        {
+          "date": "2021-02-10T00:00:00.000Z",
+          "time": "08:00:00.0 - 18:30:00.0",
+          "appointments": "2",
+          "linkId": "Marker2Div"
+        },
+        {
+          "date": "2021-02-16T00:00:00.000Z",
+          "time": "08:00:00.0 - 18:30:00.0",
+          "appointments": "1",
+          "linkId": "Marker3Div"
+        },
+        {
+          "date": "2021-02-25T00:00:00.000Z",
+          "time": "08:00:00.0 - 18:30:00.0",
+          "appointments": "1",
+          "linkId": "Marker4Div"
+        },
+        {
+          "date": "2021-02-27T00:00:00.000Z",
+          "time": "08:00:00.0 - 18:30:00.0",
+          "appointments": "1",
+          "linkId": "Marker5Div"
+        },
+        {
+          "date": "2021-03-08T00:00:00.000Z",
+          "time": "08:00:00.0 - 18:30:00.0",
+          "appointments": "1",
+          "linkId": "Marker6Div"
+        },
+        {
+          "date": "2021-03-09T00:00:00.000Z",
+          "time": "08:00:00.0 - 18:30:00.0",
+          "appointments": "1",
+          "linkId": "Marker7Div"
+        },
+        {
+          "date": "2021-03-31T00:00:00.000Z",
+          "time": "08:00:00.0 - 18:30:00.0",
+          "appointments": "1",
+          "linkId": "Marker8Div"
+        },
+        {
+          "date": "2021-04-15T00:00:00.000Z",
+          "time": "08:00:00.0 - 18:30:00.0",
+          "appointments": "1",
+          "linkId": "Marker9Div"
         }
       ]
     },
@@ -125,7 +179,20 @@
         "state": "NY",
         "zip": "11793"
       },
-      "events": []
+      "events": [
+        {
+          "date": "2021-01-20T00:00:00.000Z",
+          "time": "08:00:00.0 - 18:30:00.0",
+          "appointments": "1",
+          "linkId": "Marker1Div"
+        },
+        {
+          "date": "2021-03-29T00:00:00.000Z",
+          "time": "08:00:00.0 - 18:30:00.0",
+          "appointments": "1",
+          "linkId": "Marker2Div"
+        }
+      ]
     },
     {
       "name": "NYS COVID Vaccine POD - Westchester County Center",
@@ -137,7 +204,26 @@
         "state": "NY",
         "zip": "10607"
       },
-      "events": []
+      "events": [
+        {
+          "date": "2021-03-22T00:00:00.000Z",
+          "time": "08:00:00.0 - 18:30:00.0",
+          "appointments": "1",
+          "linkId": "Marker1Div"
+        },
+        {
+          "date": "2021-03-24T00:00:00.000Z",
+          "time": "08:00:00.0 - 18:30:00.0",
+          "appointments": "1",
+          "linkId": "Marker2Div"
+        },
+        {
+          "date": "2021-04-10T00:00:00.000Z",
+          "time": "08:00:00.0 - 18:30:00.0",
+          "appointments": "1",
+          "linkId": "Marker3Div"
+        }
+      ]
     }
   ]
 }
