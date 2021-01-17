@@ -137,6 +137,7 @@ const nyGovSites = [{
                 await page.setUserAgent('Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/87.0.4280.141 Safari/537.36 Edg/87.0.664.75');
                 await page.goto(site.link, {timeout: 10000});
                 await page.waitForSelector("#pagetitle, h1, #notfound", { timeout: 10000 });
+                await page.waitForTimeout(1000); // sometimes jquery wasn't loaded
                 const isError = await page.$("h1, #notfound");
                 if (!isError) {
                     site.events = await page.evaluate(() => {
@@ -144,20 +145,32 @@ const nyGovSites = [{
                         const eventsWeb = $(".event-type");
                         for (const event of eventsWeb) {
                             const isAvailable = $(event).find("button").text() !== "Event Full";
-                            if (isAvailable) {
+                            var approxAppointmentCount = getApproxAppointmentCount($(event).find("div div:contains('Appointments Available:'):last").first().text().substring(24));
+                            if (isAvailable && approxAppointmentCount > 0) {
                                 events.push({
                                     date: new Date($(event).find("div div:contains('Date:'):last").first().text().substring(6) + " UTC").toISOString(),
                                     time: $(event).find("div div:contains('Time:'):last").first().text().substring(6),
-                                    appointments: $(event).find("div div:contains('Appointments Available:'):last").first().text().substring(24),
+                                    appointments: approxAppointmentCount,
                                     linkId: $(event).parent().attr("id")
                                 });
                             }
                         }
                         return events;
+
+                        function getApproxAppointmentCount(appointmentCount){
+                            const actualAppointmentCount = parseInt(appointmentCount);
+                            const buckets = [0, 5, 10, 25, 50, 100, 150, 200, 250]
+                            for (let i = 1; i < buckets.length; i++){
+                                if (actualAppointmentCount < buckets[i]){
+                                    return buckets[i-1];
+                                }
+                            }
+                            return buckets[buckets.length-1];
+                        }
                     });
                 }
             } catch (err) {
-                console.error(site.link + ": " + err); // todo: log oout to node
+                console.error("[" + site.link + "]: " + err); // todo: log oout to node
             }
         })())
     }
