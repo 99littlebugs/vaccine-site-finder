@@ -1,6 +1,7 @@
 const handlebars = require('handlebars');
 const fs = require("fs");
 const path = require('path');
+const puppeteer = require('puppeteer');
 
 handlebars.registerHelper('date', function (date) {
     const options = { weekday: 'short', month: 'short', day: 'numeric' };
@@ -25,6 +26,19 @@ for (const site of data.sites) {
 }
 
 fs.writeFileSync(path.join("site", "index.html"), template({ sites: sites.sort(sortByProperty("name")), events: events.sort(sortByProperty("date")) }));
+
+(async () => {
+    const browser = await puppeteer.launch();
+    const page = await browser.newPage();
+    await page.setViewport({
+        width: 1200,
+        height: 628,
+        deviceScaleFactor: 1
+    });
+    await page.goto(`file://${path.join(__dirname, "site", "index.html")}`);
+    await page.screenshot({path: path.join("site", "images", "social-share.png")});
+    await browser.close();
+})();
 
 function sortByProperty(property) {
     return function (a, b) {
