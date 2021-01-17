@@ -136,8 +136,8 @@ const nyGovSites = [{
                 const page = await browser.newPage();
                 await page.setUserAgent('Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/87.0.4280.141 Safari/537.36 Edg/87.0.664.75');
                 await page.goto(site.link, {timeout: 10000});
-                await page.waitForSelector("#pagetitle, h1", { timeout: 10000 });
-                const isError = await page.$("h1");
+                await page.waitForSelector("#pagetitle, h1, #notfound", { timeout: 10000 });
+                const isError = await page.$("h1, #notfound");
                 if (!isError) {
                     site.events = await page.evaluate(() => {
                         const events = [];
