@@ -3,6 +3,7 @@ on:
   push:
   workflow_dispatch:
   schedule:
+# the cron has been unpredictable so also using https://pipedream.com/ for HTTP based "manual" triggering
     - cron:  '*/5 * * * *'
 jobs:
   scheduled:
