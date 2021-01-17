@@ -135,9 +135,9 @@ const nyGovSites = [{
             try {
                 const page = await browser.newPage();
                 await page.setUserAgent('Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/87.0.4280.141 Safari/537.36 Edg/87.0.664.75');
-                await page.goto(site.link, {timeout: 10000});
-                await page.waitForSelector("#pagetitle, h1, #notfound", { timeout: 10000 });
-                await page.waitForTimeout(1000); // sometimes jquery wasn't loaded
+                await page.goto(site.link, {timeout: 20000});
+                await page.waitForSelector("#pagetitle, h1, #notfound", { timeout: 20000 });
+                await page.waitForTimeout(2000); // sometimes jquery wasn't loaded
                 const isError = await page.$("h1, #notfound");
                 if (!isError) {
                     site.events = await page.evaluate(() => {
@@ -170,7 +170,7 @@ const nyGovSites = [{
                     });
                 }
             } catch (err) {
-                console.error("[" + site.link + "]: " + err); // todo: log oout to node
+                console.error(site.link + " " + err);
             }
         })())
     }
