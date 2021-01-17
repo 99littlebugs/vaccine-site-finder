@@ -70,56 +70,7 @@
         "state": "NY",
         "zip": "10018"
       },
-      "events": [
-        {
-          "date": "2021-01-31T00:00:00.000Z",
-          "time": "08:00:00.0 - 18:30:00.0",
-          "appointments": "2",
-          "linkId": "Marker0Div"
-        },
-        {
-          "date": "2021-02-13T00:00:00.000Z",
-          "time": "08:00:00.0 - 18:30:00.0",
-          "appointments": "1",
-          "linkId": "Marker1Div"
-        },
-        {
-          "date": "2021-02-17T00:00:00.000Z",
-          "time": "08:00:00.0 - 18:30:00.0",
-          "appointments": "1",
-          "linkId": "Marker2Div"
-        },
-        {
-          "date": "2021-03-06T00:00:00.000Z",
-          "time": "08:00:00.0 - 18:30:00.0",
-          "appointments": "1",
-          "linkId": "Marker3Div"
-        },
-        {
-          "date": "2021-03-11T00:00:00.000Z",
-          "time": "08:00:00.0 - 18:30:00.0",
-          "appointments": "1",
-          "linkId": "Marker4Div"
-        },
-        {
-          "date": "2021-03-18T00:00:00.000Z",
-          "time": "08:00:00.0 - 18:30:00.0",
-          "appointments": "1",
-          "linkId": "Marker5Div"
-        },
-        {
-          "date": "2021-03-20T00:00:00.000Z",
-          "time": "08:00:00.0 - 18:30:00.0",
-          "appointments": "1",
-          "linkId": "Marker6Div"
-        },
-        {
-          "date": "2021-04-08T00:00:00.000Z",
-          "time": "08:00:00.0 - 18:30:00.0",
-          "appointments": "1",
-          "linkId": "Marker7Div"
-        }
-      ]
+      "events": []
     },
     {
       "name": "Northwell CoVID-19 Vaccination Program: Manhattan - Lenox Hill Hospital",
@@ -179,38 +130,7 @@
         "state": "NY",
         "zip": "10607"
       },
-      "events": [
-        {
-          "date": "2021-01-22T00:00:00.000Z",
-          "time": "08:00:00.0 - 18:30:00.0",
-          "appointments": "1",
-          "linkId": "Marker0Div"
-        },
-        {
-          "date": "2021-02-26T00:00:00.000Z",
-          "time": "08:00:00.0 - 18:30:00.0",
-          "appointments": "1",
-          "linkId": "Marker1Div"
-        },
-        {
-          "date": "2021-03-04T00:00:00.000Z",
-          "time": "08:00:00.0 - 18:30:00.0",
-          "appointments": "1",
-          "linkId": "Marker2Div"
-        },
-        {
-          "date": "2021-03-09T00:00:00.000Z",
-          "time": "08:00:00.0 - 18:30:00.0",
-          "appointments": "1",
-          "linkId": "Marker3Div"
-        },
-        {
-          "date": "2021-04-14T00:00:00.000Z",
-          "time": "08:00:00.0 - 18:30:00.0",
-          "appointments": "1",
-          "linkId": "Marker4Div"
-        }
-      ]
+      "events": []
     }
   ]
 }
