@@ -106,14 +106,7 @@
         "state": "NY",
         "zip": "11590"
       },
-      "events": [
-        {
-          "date": "2021-01-16T00:00:00.000Z",
-          "time": "08:00:00.0 - 19:00:00.0",
-          "appointments": "1",
-          "linkId": "Marker0Div"
-        }
-      ]
+      "events": []
     },
     {
       "name": "NYS COVID Vaccine POD - Jones Beach State Park - Field 3",
