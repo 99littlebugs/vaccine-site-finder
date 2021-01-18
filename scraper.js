@@ -137,11 +137,11 @@ const nyGovSites = [
             const page = await browser.newPage();
             await page.setUserAgent('Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/87.0.4280.141 Safari/537.36 Edg/87.0.664.75');
 
-            // retries 
+            // let one retry and use default timeouts of 30s
             for (let i = 0; i < 2; i++) {
-                try {
-                    await page.goto(site.link, { timeout: 5000 });
-                    await page.waitForSelector("#pagetitle, h1, #notfound", { timeout: 5000 });
+                try {        
+                    await page.goto(site.link);
+                    await page.waitForSelector("#pagetitle, h1, #notfound");
                     const isError = await page.$("h1, #notfound");
                     if (!isError) {
                         site.events = await page.evaluate(() => {
@@ -173,6 +173,7 @@ const nyGovSites = [
                             }
                         });
                     }
+                    await page.close();
                     break; // if succesful, don't retry
                 } catch (err) {
                     console.error(`try: [${i}] ${site.link} ${err}`);
