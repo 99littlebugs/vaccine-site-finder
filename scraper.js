@@ -125,6 +125,17 @@ const nyGovSites = [
             state: "NY",
             zip: "10607"
         }
+    },
+    {
+        name: "NYS COVID Vaccine POD - Aqueduct Racetrack",
+        link: "https://apps3.health.ny.gov/doh2/applinks/cdmspr/2/counties?OpID=50503467",
+        address: {
+            name: "Aqueduct Racetrack - Racing Hall",
+            street: "110-00 Rockaway Blvd",
+            city: "Jamaica",
+            state: "NY",
+            zip: "11420"
+        }
     }
 ];
 
