@@ -70,7 +70,7 @@
           <td>{{date date}}</td>
           <td>{{time}}</td>
           <td>{{appointments}}</td>
-          <td><a target="_blank" class="u-pull-right button button-primary" href="{{site.link}}#{{linkId}}">Book</a>
+          <td><a target="_blank" class="u-pull-right button button-primary" href="{{site.link}}{{#if linkId}}#{{linkId}}{{/if}}">Book</a>
           </td>
         </tr>
         {{else}}
