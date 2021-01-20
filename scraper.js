@@ -275,7 +275,7 @@ function getEventsForSite(siteLink) {
 
 function getApproxAppointmentCount(appointmentCount) {
     const actualAppointmentCount = parseInt(appointmentCount);
-    const buckets = [0, 5, 10, 25, 50, 100, 150, 200, 250]
+    const buckets = [0, 5, 10, 25, 50, 100, 150, 200, 250, 300]
     for (let i = 1; i < buckets.length; i++) {
         if (actualAppointmentCount < buckets[i]) {
             return buckets[i - 1];
