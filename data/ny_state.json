@@ -82,7 +82,20 @@
         "state": "NY",
         "zip": "10021"
       },
-      "events": []
+      "events": [
+        {
+          "date": "2021-01-21T00:00:00.000Z",
+          "time": "08:00:00.0 - 18:15:00.0",
+          "appointments": 150,
+          "linkId": "Marker1Div"
+        },
+        {
+          "date": "2021-01-22T00:00:00.000Z",
+          "time": "08:00:00.0 - 18:15:00.0",
+          "appointments": 200,
+          "linkId": "Marker2Div"
+        }
+      ]
     },
     {
       "name": "NC Dept. of Health at Nassau Community College CCB",
