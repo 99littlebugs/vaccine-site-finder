@@ -186,7 +186,7 @@ const nyGovSites = [
         link: "https://apps3.health.ny.gov/doh2/applinks/cdmspr/2/counties?DateID=10025",
         address: {
             name: "White Plains DO",
-            address: "134 Court Street",
+            street: "134 Court Street",
             city: "White Plains",
             state: "NY",
             zip: "10601"
@@ -197,7 +197,7 @@ const nyGovSites = [
         link: "https://apps3.health.ny.gov/doh2/applinks/cdmspr/2/counties?DateID=10021",
         address: {
             name: "White Plains DO",
-            address: "134 Court Street",
+            street: "134 Court Street",
             city: "White Plains",
             state: "NY",
             zip: "10601"
