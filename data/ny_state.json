@@ -34,7 +34,20 @@
         "state": "NY",
         "zip": "11554"
       },
-      "events": []
+      "events": [
+        {
+          "date": "2021-01-23T00:00:00.000Z",
+          "time": "08:00:00.0 - 19:30:00.0",
+          "appointments": 25,
+          "linkId": "Marker1Div"
+        },
+        {
+          "date": "2021-01-24T00:00:00.000Z",
+          "time": "08:00:00.0 - 19:30:00.0",
+          "appointments": 25,
+          "linkId": "Marker2Div"
+        }
+      ]
     },
     {
       "name": "Northwell CoVID-19 Vaccination Program: Nassau County - Elmont",
