@@ -206,7 +206,7 @@
         {
           "date": "2021-01-23T00:00:00.000Z",
           "time": "08:00 AM - 03:30 PM",
-          "appointments": 300,
+          "appointments": 250,
           "linkId": "Marker0Div"
         }
       ]
@@ -221,14 +221,7 @@
         "state": "NY",
         "zip": "10601"
       },
-      "events": [
-        {
-          "date": "2021-01-22T00:00:00.000Z",
-          "time": "08:00 AM - 03:30 PM",
-          "appointments": 25,
-          "linkId": "Marker0Div"
-        }
-      ]
+      "events": []
     }
   ]
 }
