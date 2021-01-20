@@ -143,6 +143,54 @@
         "zip": "11420"
       },
       "events": []
+    },
+    {
+      "name": "Northwell Health-GoHealth Urgent Care | Forest Hills",
+      "link": "https://www.clockwisemd.com/hospitals/803/appointments/schedule_visit",
+      "address": {
+        "name": "Northwell Health-GoHealth Urgent Care",
+        "street": "102-29 Queens Blvd",
+        "city": "Forest Hills",
+        "state": "NY",
+        "zip": "11375"
+      },
+      "events": []
+    },
+    {
+      "name": "Northwell Health-GoHealth Urgent Care | Syosset",
+      "link": "https://www.clockwisemd.com/hospitals/781/appointments/schedule_visit",
+      "address": {
+        "name": "Northwell Health-GoHealth Urgent Care",
+        "street": "103 Jackson Ave",
+        "city": "Syossett",
+        "state": "NY",
+        "zip": "11791"
+      },
+      "events": []
+    },
+    {
+      "name": "Northwell Health-GoHealth Urgent Care | Hewlett",
+      "link": "https://www.clockwisemd.com/hospitals/3255/appointments/schedule_visit",
+      "address": {
+        "name": "Northwell Health-GoHealth Urgent Care",
+        "street": "1332 Peninsula Blvd",
+        "city": "Hewlett",
+        "state": "NY",
+        "zip": "11557"
+      },
+      "events": []
+    },
+    {
+      "name": "Northwell Health-GoHealth Urgent Care | Riverhead",
+      "link": "https://www.clockwisemd.com/hospitals/1866/appointments/schedule_visit",
+      "address": {
+        "name": "Northwell Health-GoHealth Urgent Care",
+        "street": "1842 Old Country Road",
+        "city": "Riverhead",
+        "state": "NY",
+        "zip": "11901"
+      },
+      "events": []
     }
   ]
 }
