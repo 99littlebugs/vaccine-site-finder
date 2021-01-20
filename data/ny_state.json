@@ -10,7 +10,14 @@
         "state": "NY",
         "zip": "11435"
       },
-      "events": []
+      "events": [
+        {
+          "date": "2021-01-23T00:00:00.000Z",
+          "time": "10:00:00.0 - 15:00:00.0",
+          "appointments": 10,
+          "linkId": "Marker0Div"
+        }
+      ]
     },
     {
       "name": "Northwell CoVID-19 Vaccination Program: Nassau County - Lake Success",
