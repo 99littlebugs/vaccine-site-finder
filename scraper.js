@@ -180,6 +180,28 @@ const nyGovSites = [
             state: "NY",
             zip: "11901"
         }
+    },
+    {
+        name: "01/23 FIRST DOSE Covid-19 Vaccine Westchester County Clinic",
+        link: "https://apps3.health.ny.gov/doh2/applinks/cdmspr/2/counties?DateID=10025",
+        address: {
+            name: "White Plains DO",
+            address: "134 Court Street",
+            city: "White Plains",
+            state: "NY",
+            zip: "10601"
+        }
+    },
+    {
+        name: "01/22 FIRST DOSE Covid-19 Vaccine Westchester County Clinic",
+        link: "https://apps3.health.ny.gov/doh2/applinks/cdmspr/2/counties?DateID=10021",
+        address: {
+            name: "White Plains DO",
+            address: "134 Court Street",
+            city: "White Plains",
+            state: "NY",
+            zip: "10601"
+        }
     }
 ];
 
