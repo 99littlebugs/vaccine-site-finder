@@ -6,6 +6,23 @@ This repository aims to solve that problem by aggregating the views of the many 
 
 Currently focused towards Nassau, Queens, Manhattan. Open to PRs to allow further expansion.
 
+## How to:
+Setup: 
+```
+npm install
+```
+
+Run scraper: 
+```
+npm run scraper
+```
+
+Build website: 
+```
+npm run build
+```
+
+
 ## `//TODO:` :white_check_mark:
 Pull requests are welcome!
 1. Add all the NY state individual sites
