@@ -202,6 +202,17 @@ const nyGovSites = [
             state: "NY",
             zip: "10601"
         }
+    },
+    {
+        name: "Jan 21-25: Office of Aging (Over 65)",
+        link: "https://apps3.health.ny.gov/doh2/applinks/cdmspr/2/counties?OpID=50503908",
+        address: {
+            name: "RCDOH",
+            street: "50 Sanatorium Road",
+            city: "Pomona",
+            state: "NY",
+            zip: "10970"
+        }
     }
 ];
 
