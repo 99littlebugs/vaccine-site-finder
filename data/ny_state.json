@@ -262,7 +262,14 @@
         "state": "NY",
         "zip": "10601"
       },
-      "events": []
+      "events": [
+        {
+          "date": "2021-01-22T00:00:00.000Z",
+          "time": "08:00 AM - 03:30 PM",
+          "appointments": 5,
+          "linkId": "Marker0Div"
+        }
+      ]
     },
     {
       "name": "Jan 21-25: Office of Aging (Over 65)",
