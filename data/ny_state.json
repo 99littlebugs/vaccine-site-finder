@@ -193,6 +193,54 @@
       "events": []
     },
     {
+      "name": "Northwell Health-GoHealth Urgent Care | Eltingville",
+      "link": "https://www.clockwisemd.com/hospitals/2356/appointments/schedule_visit",
+      "address": {
+        "name": "Northwell Health-GoHealth Urgent Care",
+        "street": "4316 Amboy Road",
+        "city": "Staten Island",
+        "state": "NY",
+        "zip": "13012"
+      },
+      "events": []
+    },
+    {
+      "name": "Northwell Health-GoHealth Urgent Care | W. 69th",
+      "link": "https://www.clockwisemd.com/hospitals/808/appointments/schedule_visit",
+      "address": {
+        "name": "Northwell Health-GoHealth Urgent Care",
+        "street": "199 Amsterdam Ave",
+        "city": "New York",
+        "state": "NY",
+        "zip": "10023"
+      },
+      "events": []
+    },
+    {
+      "name": "Northwell Health-GoHealth Urgent Care | New Rochelle",
+      "link": "https://www.clockwisemd.com/hospitals/814/appointments/schedule_visit",
+      "address": {
+        "name": "Northwell Health-GoHealth Urgent Care",
+        "street": "77 Quaker Ridge Rd",
+        "city": "New Rochelle",
+        "state": "NY",
+        "zip": "10804"
+      },
+      "events": []
+    },
+    {
+      "name": "Northwell Health-GoHealth Urgent Care | Huntington",
+      "link": "https://www.clockwisemd.com/hospitals/4141/appointments/schedule_visit",
+      "address": {
+        "name": "Northwell Health-GoHealth Urgent Care",
+        "street": "241 East Main St. Suite 1A",
+        "city": "Huntington",
+        "state": "NY",
+        "zip": "11743"
+      },
+      "events": []
+    },
+    {
       "name": "01/23 FIRST DOSE Covid-19 Vaccine Westchester County Clinic",
       "link": "https://apps3.health.ny.gov/doh2/applinks/cdmspr/2/counties?DateID=10025",
       "address": {
