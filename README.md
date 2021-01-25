@@ -1,3 +1,7 @@
+# :loudspeaker: We've joined forces with [NYC Vaccine List](https://nycvaccinelist.com/)!
+[Sign up](https://airtable.com/shre9W0Fydcs56ezI) to volunteer!
+<br>
+<br>
 # NY State COVID-19 Vaccination :syringe: Site Tracker ![Scrape latest data](https://github.com/99littlebugs/vaccine-site-finder/workflows/Scrape%20latest%20data/badge.svg) [![Netlify Status](https://api.netlify.com/api/v1/badges/65f4d075-c9e9-4bff-be91-725909c045eb/deploy-status)](https://app.netlify.com/sites/vaccinesitefinder/deploys)
 
 NY State vaccination appointments seem to be spread across multiple websites, making it challenging to see where appointments are available. 
